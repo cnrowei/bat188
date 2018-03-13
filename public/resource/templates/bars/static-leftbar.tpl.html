@@ -1,0 +1,37 @@
+<div class="left-sub-bar col-xs-2">
+    <div class="heading" translate="txtStatementMyAccount">
+    My Account</div>
+    <myacc-accordion close-others="false">
+        <myacc-accordion-group heading="txtStatementRoot" is-open="openStatus['statement']" is-disabled="false">
+            <myacc-accordion-group heading="txtStatementBetHistory" is-open="openStatus['betting-history']">
+                <myacc-accordion-group heading="navSbkRoot" is-open="openStatus['sports']" ng-if="availableProds | contains:'name===\'sports\''">
+                    <li><a ng-class="{'expanded': isExpanded('sports/settled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/sports/settled-bets" translate="txtStatementBetHistorySettledBets">Unsettled Bets</a></li>
+                    <li><a ng-class="{'expanded': isExpanded('sports/unsettled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/sports/unsettled-bets" translate="txtStatementBetHistoryUnsettledBets">Settled Bets</a></li>
+                </myacc-accordion-group>
+                <li ng-if="availableProds | contains:'name===\'casino\''"><a ng-class="{'expanded': openStatus['casino']}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/casino" translate="navCsnRoot" titlekey="navCsnRoot">Casino</a></li>
+                <li ng-if="availableProds | contains:'name===\'live\''"><a ng-class="{'expanded': openStatus['live']}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/live" translate="navLiveCsnRoot">Live Casino</a></li>
+                <myacc-accordion-group heading="navFinsRoot" is-open="openStatus['financials']" ng-if="availableProds | contains:'name===\'financials\''">
+                    <li><a ng-class="{'expanded': isExpanded('financials/settled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/financials/settled-bets" translate="txtStatementBetHistorySettledBets">Unsettled Bets</a></li>
+                    <li><a ng-class="{'expanded': isExpanded('financials/unsettled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/financials/unsettled-bets" translate="txtStatementBetHistoryUnsettledBets">Settled Bets</a></li>
+                </myacc-accordion-group>
+                <myacc-accordion-group heading="navLottoRoot" is-open="openStatus['lotto']" ng-if="availableProds | contains:'name===\'lotto\''">
+                    <li><a ng-class="{'expanded': isExpanded('lotto/settled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/lotto/settled-bets" translate="txtStatementBetHistorySettledBets">Unsettled Bets</a></li>
+                    <li><a ng-class="{'expanded': isExpanded('lotto/unsettled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/lotto/unsettled-bets" translate="txtStatementBetHistoryUnsettledBets">Settled Bets</a></li>
+                </myacc-accordion-group>
+                <myacc-accordion-group heading="navRacingRoot" is-open="openStatus['racing']"  ng-if="availableProds | contains:'name===\'racing\''">
+                    <li><a ng-class="{'expanded': isExpanded('racing/settled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/racing/settled-bets" translate="txtStatementBetHistorySettledBets">Unsettled Bets</a></li>
+                    <li><a ng-class="{'expanded': isExpanded('racing/unsettled-bets')}" ng-href="/{{::global.lan}}/my-account/statement/betting-history/racing/unsettled-bets" translate="txtStatementBetHistoryUnsettledBets">Settled Bets</a></li>
+                </myacc-accordion-group>
+            </myacc-accordion-group>
+            <myacc-accordion-group ng-if="client.sessionD.mberType == 1" heading="txtStatementTxnHistory" is-open="openStatus['transaction-history']">
+                <li><a ng-class="{'expanded': openStatus['deposit']}" ng-href="/{{::global.lan}}/my-account/statement/transaction-history/deposit" translate="navStatementDeposit">Deposit</a></li>
+                <li><a ng-class="{'expanded': openStatus['withdrawal']}" ng-href="/{{::global.lan}}/my-account/statement/transaction-history/withdrawal" translate="navStatementWithdrawal">Withdrawal</a></li>
+                <li><a ng-class="{'expanded': openStatus['transfer']}" ng-href="/{{::global.lan}}/my-account/statement/transaction-history/transfer" translate="navStatementTransfer">Transfer</a></li>
+                <li><a ng-class="{'expanded': openStatus['adjustment']}" ng-href="/{{::global.lan}}/my-account/statement/transaction-history/adjustment" translate="navStatementAdjustment">Adjustment</a></li>
+                <li><a ng-class="{'expanded': openStatus['promotions']}" ng-href="/{{::global.lan}}/my-account/statement/transaction-history/promotions" translate="navStatementPromotion">Promotion</a></li>
+            </myacc-accordion-group>
+             <li><a ng-class="{'expanded': openStatus['summary']}" ng-href="/{{::global.lan}}/my-account/statement/transaction-history/summary" translate="txtStatementSummary">Summary</a></li>
+        </myacc-accordion-group>
+    </myacc-accordion>
+</div>
+<b></b>

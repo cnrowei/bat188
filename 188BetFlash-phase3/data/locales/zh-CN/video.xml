@@ -1,0 +1,14 @@
+<config>
+	<params bundle="video">
+		
+		<param name="connecting">连接中...</param>
+		<param name="initialising">初始化中...</param>
+		<param name="streaming">流动中...</param>
+		<param name="notLoggedIn">您必须登陆方可观看直播</param>
+		<param name="geoblockedError.firstLine">真的抱歉!您所在地区无法播放此赛事。</param>
+		<param name="geoblockedError.secondLine"></param>
+		<param name="connectionError.firstLine">出现错误，请检查您的连接設備并再次尝试。</param>
+		<param name="connectionError.secondLine"></param>
+		
+	</params>
+</config>

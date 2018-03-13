@@ -1,0 +1,3491 @@
+{
+    "uvd": {
+        "login": false,
+        "ov": 2,
+        "sb": 1,
+        "urView": "ASIAN",
+        "efloat": true,
+        "pds": 1,
+        "showls": false,
+        "nol": 1,
+        "iarf": true
+    },
+    "lpd": {
+        "sm": {
+            "fe": {
+                "progms": [{
+                    "sports": [{
+                        "si": 1,
+                        "sen": "football",
+                        "sn": "足球",
+                        "on": 1,
+                        "Url": "/zh-cn/multiprogramme/football/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 2,
+                        "sen": "basketball",
+                        "sn": "篮球",
+                        "on": 2,
+                        "Url": "/zh-cn/multiprogramme/basketball/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 3,
+                        "sen": "tennis",
+                        "sn": "网球",
+                        "on": 3,
+                        "Url": "/zh-cn/multiprogramme/tennis/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 9,
+                        "sen": "badminton",
+                        "sn": "羽毛球",
+                        "on": 10,
+                        "Url": "/zh-cn/multiprogramme/badminton/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 8,
+                        "sen": "boxing",
+                        "sn": "拳击/格斗",
+                        "on": 77,
+                        "Url": "/zh-cn/multiprogramme/boxing/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 29,
+                        "sen": "field-hockey",
+                        "sn": "曲棍球",
+                        "on": 88,
+                        "Url": "/zh-cn/multiprogramme/field-hockey/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 5,
+                        "sen": "golf",
+                        "sn": "高尔夫球",
+                        "on": 88,
+                        "Url": "/zh-cn/multiprogramme/golf/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 16,
+                        "sen": "handball",
+                        "sn": "手球",
+                        "on": 15,
+                        "Url": "/zh-cn/multiprogramme/handball/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 33,
+                        "sen": "more-sports",
+                        "sn": "更多运动",
+                        "on": 29,
+                        "Url": "/zh-cn/multiprogramme/more-sports/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 14,
+                        "sen": "rugby",
+                        "sn": "橄榄球",
+                        "on": 26,
+                        "Url": "/zh-cn/multiprogramme/rugby/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 15,
+                        "sen": "specials",
+                        "sn": "特别项目",
+                        "on": 6,
+                        "Url": "/zh-cn/multiprogramme/specials/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 34,
+                        "sen": "swimming",
+                        "sn": "游泳",
+                        "on": 31,
+                        "Url": "/zh-cn/multiprogramme/swimming/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 20,
+                        "sen": "table-tennis",
+                        "sn": "乒乓球",
+                        "on": 16,
+                        "Url": "/zh-cn/multiprogramme/table-tennis/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 32,
+                        "sen": "track-and-field",
+                        "sn": "田径",
+                        "on": 32,
+                        "Url": "/zh-cn/multiprogramme/track-and-field/2",
+                        "ic": "icon-31"
+                    }, {
+                        "si": 13,
+                        "sen": "volleyball",
+                        "sn": "排球",
+                        "on": 6,
+                        "Url": "/zh-cn/multiprogramme/volleyball/2",
+                        "ic": "icon-31"
+                    }
+                    ],
+                    "pid": 2,
+                    "pn": "奥林匹克运动会2016",
+                    "pon": 2,
+                    "pen": "olympics-2016",
+                    "ims": true
+                }
+                ]
+            },
+            "smd": [{
+                "sid": 1,
+                "sn": "足球",
+                "sen": "football",
+                "mt": 1,
+                "son": 1,
+                "tc": 77,
+                "tmrc": 29,
+                "ipc": 33,
+                "ec": 171,
+                "psc": 248,
+                "orc": 61,
+                "puc": [{
+                    "ces": [],
+                    "cid": 27623,
+                    "cn": "德国超级杯",
+                    "cen": "Germany Super Cup"
+                }, {
+                    "ces": [],
+                    "cid": 26726,
+                    "cn": "英格兰超级联赛",
+                    "cen": "English Premier League"
+                }, {
+                    "ces": [],
+                    "cid": 27487,
+                    "cn": "德国甲组联赛",
+                    "cen": "Germany Bundesliga 1"
+                }, {
+                    "ces": [],
+                    "cid": 27668,
+                    "cn": "德国杯",
+                    "cen": "Germany DFB Cup"
+                }, {
+                    "ces": [],
+                    "cid": 27166,
+                    "cn": "欧洲冠军杯",
+                    "cen": "UEFA Champions League"
+                }, {
+                    "ces": [],
+                    "cid": 28895,
+                    "cn": "奥林匹克运动会2016男子足球(在巴西)",
+                    "cen": "Olympics 2016 Men Football (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 27068,
+                    "cn": "西班牙甲组联赛",
+                    "cen": "Spain La Liga"
+                }, {
+                    "ces": [],
+                    "cid": 26999,
+                    "cn": "西班牙超级杯",
+                    "cen": "Spain Super Cup"
+                }, {
+                    "ces": [],
+                    "cid": 27317,
+                    "cn": "意大利甲组联赛",
+                    "cen": "Italy Serie A"
+                }, {
+                    "ces": [],
+                    "cid": 28288,
+                    "cn": "欧洲超级杯",
+                    "cen": "UEFA Super Cup"
+                }
+                ]
+            }, {
+                "sid": 2,
+                "sn": "篮球",
+                "sen": "basketball",
+                "mt": 2,
+                "son": 2,
+                "tc": 5,
+                "tmrc": 4,
+                "ipc": 2,
+                "ec": 4,
+                "psc": 9,
+                "orc": 5,
+                "puc": [{
+                    "ces": [],
+                    "cid": 27096,
+                    "cn": "NBA美国职业篮球联赛",
+                    "cen": "NBA"
+                }, {
+                    "ces": [],
+                    "cid": 38640,
+                    "cn": "奥林匹克运动会2016男子篮球(在巴西)",
+                    "cen": "Olympics 2016 Men Basketball (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38648,
+                    "cn": "奥林匹克运动会2016女子篮球(在巴西)",
+                    "cen": "Olympics 2016 Women Basketball (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 29544,
+                    "cn": "FIBA欧洲篮球锦标赛B组U18(在马其顿)",
+                    "cen": "FIBA European Championship U18 Div B (In MKD)"
+                }, {
+                    "ces": [],
+                    "cid": 61493,
+                    "cn": "FIBA3x3篮球世锦赛(在中国)",
+                    "cen": "FIBA 3x3 World Championships"
+                }
+                ]
+            }, {
+                "sid": 3,
+                "sn": "网球",
+                "sen": "tennis",
+                "mt": 2,
+                "son": 3,
+                "tc": 5,
+                "tmrc": 0,
+                "ipc": 3,
+                "ec": 0,
+                "psc": 5,
+                "orc": 5,
+                "puc": [{
+                    "ces": [],
+                    "cid": 39282,
+                    "cn": "ITF戴维斯杯",
+                    "cen": "ITF Davis Cup"
+                }, {
+                    "ces": [],
+                    "cid": 38857,
+                    "cn": "奥林匹克运动会2016男子网球(在巴西)-单打",
+                    "cen": "Olympics 2016 Men Singles Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38863,
+                    "cn": "奥林匹克运动会2016男子网球(在巴西)-双打",
+                    "cen": "Olympics 2016 Men Doubles Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38866,
+                    "cn": "奥林匹克运动会2016女子网球(在巴西)-单打",
+                    "cen": "Olympics 2016 Women Singles Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38872,
+                    "cn": "奥林匹克运动会2016女子网球(在巴西)-双打",
+                    "cen": "Olympics 2016 Women Doubles Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 28432,
+                    "cn": "ATP美国网球公开赛",
+                    "cen": "ATP - US Open"
+                }, {
+                    "ces": [],
+                    "cid": 29297,
+                    "cn": "WTA美国网球公开赛",
+                    "cen": "WTA - US Open"
+                }, {
+                    "ces": [],
+                    "cid": 29368,
+                    "cn": "ATP澳洲公开赛",
+                    "cen": "ATP - Australian Open"
+                }, {
+                    "ces": [],
+                    "cid": 27870,
+                    "cn": "WTA澳洲公开赛",
+                    "cen": "WTA - Australian Open"
+                }
+                ]
+            }, {
+                "sid": 4,
+                "sn": "棒球",
+                "sen": "baseball",
+                "mt": 2,
+                "son": 4,
+                "tc": 6,
+                "tmrc": 0,
+                "ipc": 4,
+                "ec": 0,
+                "psc": 6,
+                "orc": 0,
+                "puc": [{
+                    "ces": [],
+                    "cid": 29400,
+                    "cn": "美国职业棒球",
+                    "cen": "MLB"
+                }
+                ]
+            }, {
+                "sid": 23,
+                "sn": "电子竞技",
+                "sen": "e-sports",
+                "mt": 2,
+                "son": 5,
+                "tc": 3,
+                "tmrc": 6,
+                "ipc": 1,
+                "ec": 8,
+                "psc": 11,
+                "orc": 1,
+                "puc": [{
+                    "ces": [],
+                    "cid": 39417,
+                    "cn": "国际邀请赛(DOTA2)(1场1胜)",
+                    "cen": "The International (DOTA2)(1 Map)"
+                }, {
+                    "ces": [],
+                    "cid": 43982,
+                    "cn": "国际邀请赛(DOTA2)(3场2胜)",
+                    "cen": "The International (DOTA2)(Best Of 3)"
+                }, {
+                    "ces": [],
+                    "cid": 38297,
+                    "cn": "国际邀请赛(DOTA2)",
+                    "cen": "The International (DOTA2)(Outright)"
+                }, {
+                    "ces": [],
+                    "cid": 61372,
+                    "cn": "ESL(风暴英雄)(3场2胜)",
+                    "cen": "ESL (Heroes of the Storm)(Best Of 3)"
+                }, {
+                    "ces": [],
+                    "cid": 44200,
+                    "cn": "LoL Championship Series(英雄联盟)(5场3胜)",
+                    "cen": "LoL Championship Series (Best Of 5)"
+                }, {
+                    "ces": [],
+                    "cid": 56754,
+                    "cn": "SL i-League StarSeries(反恐精英)(3场2胜)",
+                    "cen": "SL i-League StarSeries (CS:GO)(Best Of 3)"
+                }
+                ]
+            }, {
+                "sid": 15,
+                "sn": "特别项目",
+                "sen": "specials",
+                "mt": 2,
+                "son": 6,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 7,
+                "puc": [{
+                    "ces": [],
+                    "cid": 37966,
+                    "cn": "奥林匹克运动会2016特别投注(在巴西)",
+                    "cen": "Olympics 2016 Specials (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 30788,
+                    "cn": "世界扑克锦标赛",
+                    "cen": "World Series Of Poker"
+                }, {
+                    "ces": [],
+                    "cid": 55687,
+                    "cn": "英国政治",
+                    "cen": "UK Politics"
+                }, {
+                    "ces": [],
+                    "cid": 61000,
+                    "cn": "世界政治",
+                    "cen": "World Politics"
+                }, {
+                    "ces": [],
+                    "cid": 47364,
+                    "cn": "美国总统选举",
+                    "cen": "US Presidential Election"
+                }
+                ]
+            }, {
+                "sid": 13,
+                "sn": "排球",
+                "sen": "volleyball",
+                "mt": 2,
+                "son": 6,
+                "tc": 3,
+                "tmrc": 5,
+                "ipc": 1,
+                "ec": 5,
+                "psc": 8,
+                "orc": 0,
+                "puc": [{
+                    "ces": [],
+                    "cid": 38673,
+                    "cn": "奥林匹克运动会2016男子排球(在巴西)",
+                    "cen": "Olympics 2016 Men Volleyball (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38676,
+                    "cn": "奥林匹克运动会2016女子排球(在巴西)",
+                    "cen": "Olympics 2016 Women Volleyball (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 9,
+                "sn": "羽毛球",
+                "sen": "badminton",
+                "mt": 2,
+                "son": 10,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 6,
+                "puc": [{
+                    "ces": [],
+                    "cid": 62585,
+                    "cn": "奥林匹克运动会2016男子羽毛球(在巴西)-单打",
+                    "cen": "Olympics 2016 Men Singles Badminton (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62589,
+                    "cn": "奥林匹克运动会2016女子羽毛球(在巴西)-单打",
+                    "cen": "Olympics 2016 Women Singles Badminton (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62588,
+                    "cn": "奥林匹克运动会2016男子羽毛球(在巴西)-双打",
+                    "cen": "Olympics 2016 Men Doubles Badminton (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62590,
+                    "cn": "奥林匹克运动会2016女子羽毛球(在巴西)-双打",
+                    "cen": "Olympics 2016 Women Doubles Badminton (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62591,
+                    "cn": "奥林匹克运动会2016羽毛球(在巴西)-混合双打",
+                    "cen": "Olympics 2016 Mix Doubles Badminton (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 21,
+                "sn": "斯诺克/台球",
+                "sen": "snooker",
+                "mt": 2,
+                "son": 10,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 2,
+                "puc": [{
+                    "ces": [],
+                    "cid": 32723,
+                    "cn": "斯诺克-世界锦标赛(在英格兰)",
+                    "cen": "Snooker - World Championship (In England)"
+                }, {
+                    "ces": [],
+                    "cid": 39252,
+                    "cn": "撞球-莫斯科尼杯(在美国)",
+                    "cen": "Pool - Mosconi Cup (In England)"
+                }
+                ]
+            }, {
+                "sid": 16,
+                "sn": "手球",
+                "sen": "handball",
+                "mt": 2,
+                "son": 15,
+                "tc": 3,
+                "tmrc": 0,
+                "ipc": 1,
+                "ec": 0,
+                "psc": 3,
+                "orc": 0,
+                "puc": [{
+                    "ces": [],
+                    "cid": 38671,
+                    "cn": "奧林匹克运动会2016男子手球(在巴西)",
+                    "cen": "Olympics 2016 Men Handball (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 7,
+                "sn": "美式足球",
+                "sen": "american-football",
+                "mt": 2,
+                "son": 16,
+                "tc": 1,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 35,
+                "psc": 36,
+                "orc": 1,
+                "puc": [{
+                    "ces": [],
+                    "cid": 28564,
+                    "cn": "美国职业美式足球",
+                    "cen": "NFL"
+                }, {
+                    "ces": [],
+                    "cid": 26798,
+                    "cn": "美国职业美式足球季前赛",
+                    "cen": "NFL Preseason"
+                }, {
+                    "ces": [],
+                    "cid": 27060,
+                    "cn": "美国大学美式足球",
+                    "cen": "NCAA Football"
+                }
+                ]
+            }, {
+                "sid": 18,
+                "sn": "板球",
+                "sen": "cricket",
+                "mt": 2,
+                "son": 16,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 1,
+                "puc": [{
+                    "ces": [],
+                    "cid": 55495,
+                    "cn": "皇家伦敦一天杯",
+                    "cen": "Royal London One Day Cup"
+                }
+                ]
+            }, {
+                "sid": 20,
+                "sn": "乒乓球",
+                "sen": "table-tennis",
+                "mt": 2,
+                "son": 16,
+                "tc": 6,
+                "tmrc": 0,
+                "ipc": 2,
+                "ec": 0,
+                "psc": 6,
+                "orc": 2,
+                "puc": [{
+                    "ces": [],
+                    "cid": 62525,
+                    "cn": "奥林匹克运动会2016男子乒乓球(在巴西)-单打",
+                    "cen": "Olympics 2016 Men Singles Table Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62526,
+                    "cn": "奥林匹克运动会2016女子乒乓球(在巴西)-单打",
+                    "cen": "Olympics 2016 Women Singles Table Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38918,
+                    "cn": "奥林匹克运动会2016男子乒乓球(在巴西)-团体",
+                    "cen": "Olympics 2016 Men Team Table Tennis (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38921,
+                    "cn": "奥林匹克运动会2016女子乒乓球(在巴西)-团体",
+                    "cen": "Olympics 2016 Women Team Table Tennis (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 26,
+                "sn": "冰球",
+                "sen": "ice-hockey",
+                "mt": 2,
+                "son": 26,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 1,
+                "puc": [{
+                    "ces": [],
+                    "cid": 26302,
+                    "cn": "NHL美国冰球联盟",
+                    "cen": "NHL"
+                }
+                ]
+            }, {
+                "sid": 14,
+                "sn": "橄榄球",
+                "sen": "rugby",
+                "mt": 2,
+                "son": 26,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 6,
+                "psc": 6,
+                "orc": 1,
+                "puc": [{
+                    "ces": [],
+                    "cid": 59892,
+                    "cn": "奥林匹克运动会2016男子七人制橄榄球(在巴西)",
+                    "cen": "Olympics 2016 Men Rugby Sevens (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 33,
+                "sn": "更多运动",
+                "sen": "more-sports",
+                "mt": 2,
+                "son": 29,
+                "tc": 0,
+                "tmrc": 6,
+                "ipc": 0,
+                "ec": 10,
+                "psc": 10,
+                "orc": 13,
+                "puc": [{
+                    "ces": [],
+                    "cid": 63065,
+                    "cn": "Olympics 2016 Weightlifting (In Brazil)",
+                    "cen": "Olympics 2016 Weightlifting (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38764,
+                    "cn": "奥林匹克运动会2016射击(在巴西)",
+                    "cen": "Olympics 2016 Shooting (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38760,
+                    "cn": "奥林匹克运动会2016击剑(在巴西)",
+                    "cen": "Olympics 2016 Fencing (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 63245,
+                    "cn": "奥林匹克运动会2016皮划艇(在巴西)",
+                    "cen": "Olympics 2016 Canoeing (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38763,
+                    "cn": "奥林匹克运动会2016男子赛艇(在巴西)",
+                    "cen": "Olympics 2016 Men Rowing (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62825,
+                    "cn": "奥林匹克运动会2016女子赛艇(在巴西)",
+                    "cen": "Olympics 2016 Women Rowing (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 63034,
+                    "cn": "奥林匹克运动会2016铁人三项(在巴西)",
+                    "cen": "Olympics 2016 Triathlon (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62505,
+                    "cn": "奥林匹克运动会2016男子水球(在巴西)",
+                    "cen": "Olympics 2016 Men Water Polo (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62506,
+                    "cn": "奥林匹克运动会2016女子水球(在巴西)",
+                    "cen": "Olympics 2016 Women Water Polo (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 34,
+                "sn": "游泳",
+                "sen": "swimming",
+                "mt": 2,
+                "son": 31,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 8,
+                "puc": [{
+                    "ces": [],
+                    "cid": 38668,
+                    "cn": "奥林匹克运动会2016男子游泳(在巴西)",
+                    "cen": "Olympics 2016 Men Swimming (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62507,
+                    "cn": "奥林匹克运动会2016女子游泳(在巴西)",
+                    "cen": "Olympics 2016 Women Swimming (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 38759,
+                    "cn": "奥林匹克运动会2016跳水(在巴西)",
+                    "cen": "Olympics 2016 Diving (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62805,
+                    "cn": "奥林匹克运动会2016水上芭蕾(在巴西)",
+                    "cen": "Olympics 2016 Synchronized Swimming (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 32,
+                "sn": "田径",
+                "sen": "track-and-field",
+                "mt": 2,
+                "son": 32,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 2,
+                "puc": [{
+                    "ces": [],
+                    "cid": 38096,
+                    "cn": "奥林匹克运动会2016男子田径(在巴西)",
+                    "cen": "Olympics 2016 Men Athletics (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 60211,
+                    "cn": "奥林匹克运动会2016女子田径(在巴西)",
+                    "cen": "Olympics 2016 Women Athletics (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 8,
+                "sn": "拳击/格斗",
+                "sen": "boxing",
+                "mt": 2,
+                "son": 77,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 5,
+                "psc": 5,
+                "orc": 5,
+                "puc": [{
+                    "ces": [],
+                    "cid": 61551,
+                    "cn": "拳击vs格斗",
+                    "cen": "Boxing vs MMA"
+                }, {
+                    "ces": [],
+                    "cid": 62686,
+                    "cn": "奥林匹克运动会2016男子拳击(在巴西)",
+                    "cen": "Olympics 2016 Men Boxing (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 62687,
+                    "cn": "奥林匹克运动会2016女子拳击(在巴西)",
+                    "cen": "Olympics 2016 Women Boxing (In Brazil)"
+                }, {
+                    "ces": [],
+                    "cid": 28104,
+                    "cn": "UFC终极格斗赛",
+                    "cen": "Ultimate Fighting Championship"
+                }, {
+                    "ces": [],
+                    "cid": 63185,
+                    "cn": "奥林匹克运动会2016跆拳道(在巴西)",
+                    "cen": "Olympics 2016 Taekwondo (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 29,
+                "sn": "曲棍球",
+                "sen": "field-hockey",
+                "mt": 2,
+                "son": 88,
+                "tc": 4,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 4,
+                "orc": 0,
+                "puc": [{
+                    "ces": [],
+                    "cid": 38669,
+                    "cn": "奥林匹克运动会2016男子曲棍球(在巴西)",
+                    "cen": "Olympics 2016 Men Field Hockey (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 10,
+                "sn": "金融投注",
+                "sen": "financial-bets",
+                "mt": 2,
+                "son": 88,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 78,
+                "puc": [{
+                    "ces": [],
+                    "cid": 30676,
+                    "cn": "金融-台湾加权指数",
+                    "cen": "Financial - TSEC Weighted Index"
+                }, {
+                    "ces": [],
+                    "cid": 30675,
+                    "cn": "金融-日经225指数",
+                    "cen": "Financial - Japan Nikkei 225 Index"
+                }, {
+                    "ces": [],
+                    "cid": 37922,
+                    "cn": "金融 - 韩国证券交易所指数",
+                    "cen": "Financial - Korea Stock Exchange Index"
+                }, {
+                    "ces": [],
+                    "cid": 37924,
+                    "cn": "金融-上海深圳沪深300指数",
+                    "cen": "Financial - Shanghai Shenzen CSI 300 Index"
+                }, {
+                    "ces": [],
+                    "cid": 35869,
+                    "cn": "金融-上证A股指数",
+                    "cen": "Financial - Shanghai Stock A Share Index"
+                }, {
+                    "ces": [],
+                    "cid": 30686,
+                    "cn": "金融-上证综合指数",
+                    "cen": "Financial - Shanghai Stock Composite Index"
+                }, {
+                    "ces": [],
+                    "cid": 30687,
+                    "cn": "金融-深证综指指数",
+                    "cen": "Financial - ShenZhen SSE Composite Index"
+                }, {
+                    "ces": [],
+                    "cid": 37923,
+                    "cn": "金融-证券交易所泰国指数",
+                    "cen": "Financial - Stock Exchange Of Thailand Index"
+                }, {
+                    "ces": [],
+                    "cid": 37921,
+                    "cn": "金融-FTSE大马EMAS指数",
+                    "cen": "Financial - FTSE Bursa Malaysia EMAS Index"
+                }, {
+                    "ces": [],
+                    "cid": 30682,
+                    "cn": "金融-恒生指数",
+                    "cen": "Financial - Hang Seng Index"
+                }
+                ]
+            }, {
+                "sid": 5,
+                "sn": "高尔夫球",
+                "sen": "golf",
+                "mt": 2,
+                "son": 88,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 2,
+                "puc": [{
+                    "ces": [],
+                    "cid": 30600,
+                    "cn": "莱德杯",
+                    "cen": "Ryder Cup"
+                }, {
+                    "ces": [],
+                    "cid": 59891,
+                    "cn": "奥林匹克运动会2016高尔夫(在巴西)",
+                    "cen": "Olympics 2016 Golf (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 6,
+                "sn": "彩票",
+                "sen": "lottery",
+                "mt": 2,
+                "son": 88,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 7,
+                "puc": [{
+                    "ces": [],
+                    "cid": 36234,
+                    "cn": "乐透-香港六合彩",
+                    "cen": "Lottery - Hong Kong"
+                }, {
+                    "ces": [],
+                    "cid": 36237,
+                    "cn": "乐透-中国福利彩票",
+                    "cen": "Lottery - China"
+                }, {
+                    "ces": [],
+                    "cid": 36235,
+                    "cn": "乐透-爱尔兰",
+                    "cen": "Lottery - Irish"
+                }, {
+                    "ces": [],
+                    "cid": 36852,
+                    "cn": "中国福彩3D",
+                    "cen": "China Welfare Lottery 3D"
+                }
+                ]
+            }, {
+                "sid": 17,
+                "sn": "赛车",
+                "sen": "motor-racing",
+                "mt": 2,
+                "son": 88,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 2,
+                "puc": [{
+                    "ces": [],
+                    "cid": 30775,
+                    "cn": "MotoGP-世界摩托车锦标赛",
+                    "cen": "MotoGP - World Championship"
+                }, {
+                    "ces": [],
+                    "cid": 40119,
+                    "cn": "一级方程式-世界锦标赛",
+                    "cen": "Formula 1 - World Championship"
+                }
+                ]
+            }
+            ],
+            "v": 127986,
+            "fv": 205732,
+            "mc": []
+        },
+        "ips": {
+            "ismd": [{
+                "sid": 1,
+                "sn": "足球",
+                "sen": "football",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 33,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1613445,
+                        "en": "Honduras-U23-vs-Portugal-U23",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "洪都拉斯U23",
+                        "at": "葡萄牙U23",
+                        "ipt": "14:10",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28895,
+                    "cn": "奥林匹克运动会2016男子足球(在巴西)"
+                }, {
+                    "ces": [{
+                        "eid": 1607375,
+                        "en": "Sogndal-Fotball-vs-Viking-FK",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "桑恩达",
+                        "at": "维京",
+                        "ipt": "13:55",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26380,
+                    "cn": "挪威超级联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1605336,
+                        "en": "KAA-Gent-vs-Racing-Genk",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "真特",
+                        "at": "亨克",
+                        "ipt": "14:02",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26664,
+                    "cn": "比利时甲组联赛A"
+                }, {
+                    "ces": [{
+                        "eid": 1618128,
+                        "en": "FK-Teplice-vs-Sparta-Praha",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "塔比历斯",
+                        "at": "布拉格斯巴达",
+                        "ipt": "55:18",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26060,
+                    "cn": "捷克甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1622354,
+                        "en": "Besiktas-JK-vs-Olympiacos-CFP",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "比锡达斯",
+                        "at": "奥林比亚高斯CFP",
+                        "ipt": "52:13",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622359,
+                        "en": "Arsenal-vs-Manchester-City",
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "阿森纳",
+                        "at": "曼城",
+                        "ipt": "51:38",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "1"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622877,
+                        "en": "Real-Valladolid-vs-CD-Lugo",
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "华拉度列",
+                        "at": "卢戈",
+                        "ipt": "55:22",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26052,
+                    "cn": "球会友谊赛"
+                }, {
+                    "ces": [{
+                        "eid": 1618526,
+                        "en": "ACS-Poli-Timisoara-vs-Pandurii-Targu-Jiu",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "ACS蒂米索拉",
+                        "at": "潘杜历",
+                        "ipt": "12:01",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28732,
+                    "cn": "罗马尼亚甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1618625,
+                        "en": "FK-Partizan-Belgrade-vs-FK-Vojvodina-Novi-Sad",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "柏迪逊",
+                        "at": "瓦伊伏丁纳",
+                        "ipt": "53:25",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "2"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "a",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26979,
+                    "cn": "塞尔维亚超级联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1618647,
+                        "en": "Vorskla-Poltava-vs-Karpaty-Lviv",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "沃斯卡拉",
+                        "at": "卡帕堤利夫",
+                        "ipt": "84:52",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "1"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1618649,
+                        "en": "Zorya-Luhansk-vs-Chornomorets-Odessa",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "柔亚",
+                        "at": "查诺莫斯",
+                        "ipt": "89:01",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "4"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26761,
+                    "cn": "乌克兰超级联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1618357,
+                        "en": "NK-Inter-Zapresic-vs-HNK-Rijeka",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "国际萨佩斯克",
+                        "at": "里耶卡",
+                        "ipt": "58:59",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28557,
+                    "cn": "克罗地亚甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1622162,
+                        "en": "Bnei-Yehuda-Tel-Aviv-vs-Maccabi-Tel-Aviv",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "耶乌达",
+                        "at": "特拉维夫马卡比",
+                        "ipt": "12:45",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27326,
+                    "cn": "以色列图图杯超级联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1619932,
+                        "en": "Spal-2013-vs-Messina",
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "史帕尔",
+                        "at": "麦斯纳",
+                        "ipt": "86:11",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "2"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619933,
+                        "en": "Vicenza-vs-Casertana",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "维琴察",
+                        "at": "卡塞塔纳",
+                        "ipt": "82:47",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "3"
+                        },
+                        "as": {
+                            "v": "2"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "a",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619934,
+                        "en": "Bassano-Virtus-vs-AS-Avellino",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "巴塞诺",
+                        "at": "艾维连奴",
+                        "ipt": "16:05",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619935,
+                        "en": "Cittadella-vs-US-Cremonese",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "施达迪那",
+                        "at": "科雷蒙尼斯",
+                        "ipt": "12:28",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26334,
+                    "cn": "意大利杯"
+                }, {
+                    "ces": [{
+                        "eid": 1624785,
+                        "en": "FK-Sutjeska-Niksic-vs-FK-Lovcen",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "尼卡斯克",
+                        "at": "洛夫琴",
+                        "ipt": "13:54",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 31426,
+                    "cn": "黑山甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1618626,
+                        "en": "Spartak-Trnava-vs-MSK-Zilina",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "泰拿华斯巴达",
+                        "at": "斯利纳",
+                        "ipt": "53:08",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "2"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "a",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26888,
+                    "cn": "斯洛伐克超级联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1622020,
+                        "en": "UE-Cornella-vs-Barcelona-B",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "科喏拉",
+                        "at": "巴塞罗那B队",
+                        "ipt": "12:31",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28009,
+                    "cn": "加泰罗尼亚杯"
+                }, {
+                    "ces": [{
+                        "eid": 1622026,
+                        "en": "UD-Fuente-De-Cantos-vs-Jerez-CF",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "丰特德坎托斯",
+                        "at": "皆若兹CF",
+                        "ipt": "11:03",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 31409,
+                    "cn": "RFEF杯"
+                }, {
+                    "ces": [{
+                        "eid": 1622107,
+                        "en": "FK-Vardar-vs-FK-Shkupi",
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "华达 ",
+                        "at": "史酷匹",
+                        "ipt": "13:40",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27638,
+                    "cn": "马其顿甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1621951,
+                        "en": "Algeria-U17-vs-Gabon-U17",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "阿尔及利亚U17",
+                        "at": "加蓬U17",
+                        "ipt": "14:49",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 49295,
+                    "cn": "非洲2017国家杯U17外围赛"
+                }, {
+                    "ces": [{
+                        "eid": 1618229,
+                        "en": "Deportivo-Toluca-vs-CF-Pachuca",
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "托拉卡",
+                        "at": "帕丘卡",
+                        "ipt": "29:15",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28366,
+                    "cn": "墨西哥甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1619438,
+                        "en": "LDU-Quito-vs-El-Nacional-Quito",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "奎托",
+                        "at": "国家报队",
+                        "ipt": "86:18",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "2"
+                        },
+                        "as": {
+                            "v": "2"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26446,
+                    "cn": "厄瓜多尔甲组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1622168,
+                        "en": "Leones-Negros-vs-Cimarrones-De-Sonora",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "雷昂內斯",
+                        "at": "西玛罗雷斯索诺拉",
+                        "ipt": "57:25",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "1"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "a",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27164,
+                    "cn": "墨西哥乙组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1620091,
+                        "en": "CA-Banfield-vs-Godoy-Cruz-Antonio-Tomba",
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "班菲特",
+                        "at": "葛度尔古斯",
+                        "ipt": "73:46",
+                        "etts": "2H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 36343,
+                    "cn": "阿根廷杯"
+                }, {
+                    "ces": [{
+                        "eid": 1621980,
+                        "en": "Hercilio-Luz-SC-vs-GE-Juventus-SC",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "赫茨利奥鲁滋SC",
+                        "at": "祖云达斯SC",
+                        "ipt": "14:03",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "1"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "a",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 55453,
+                    "cn": "巴西卡德里那斯乙组联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1624776,
+                        "en": "Santacruzense-SP-vs-Bandeirante-SP",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "圣塔库鲁简斯SP",
+                        "at": "班德兰特SP",
+                        "ipt": "18:30",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1621984,
+                        "en": "Guarulhos-SP-vs-Osasco-SP",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "瓜鲁贺斯SP",
+                        "at": "奥萨斯库SP",
+                        "ipt": "13:47",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 55384,
+                    "cn": "巴西聖保羅州乙組聯賽"
+                }, {
+                    "ces": [{
+                        "eid": 1622133,
+                        "en": "CD-Malacateco-vs-CSD-Municipal",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "马拉卡达高",
+                        "at": "慕尼崎柏尔",
+                        "ipt": "14:20",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 59837,
+                    "cn": "瓜地马拉全国联赛"
+                }, {
+                    "ces": [{
+                        "eid": 1621986,
+                        "en": "Matonense-SP-U20-vs-Rio-Claro-SP-U20",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "马图尼斯SP U20",
+                        "at": "里奧克拉洛SP U20",
+                        "ipt": "14:30",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "2"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "a",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 42705,
+                    "cn": "巴西圣保罗州甲组联赛U20"
+                }, {
+                    "ces": [{
+                        "eid": 1621985,
+                        "en": "AD-Centro-Olimpico-SP-W-vs-XV-Piracicaba-SP-W",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "圣托奥林匹克SP(女)",
+                        "at": "皮拉西卡巴SP(女)",
+                        "ipt": "12:06",
+                        "etts": "1H",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": true,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 42960,
+                    "cn": "巴西女子圣保罗州联赛"
+                }
+                ]
+            }, {
+                "sid": 2,
+                "sn": "篮球",
+                "sen": "basketball",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 2,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1608955,
+                        "en": "Brazil-vs-Lithuania",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "巴西",
+                        "at": "立陶宛",
+                        "ipt": "10:00",
+                        "etts": "Q3",
+                        "hs": {
+                            "v": "29"
+                        },
+                        "as": {
+                            "v": "58"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 2,
+                            "cp": "q3",
+                            "ps": [{
+                                "p": "1h",
+                                "a": 58,
+                                "h": 29
+                            }, {
+                                "p": "ft",
+                                "a": 58,
+                                "h": 29
+                            }, {
+                                "p": "q1",
+                                "a": 27,
+                                "h": 17
+                            }, {
+                                "p": "q2",
+                                "a": 31,
+                                "h": 12
+                            }, {
+                                "p": "q3",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "q4",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "2h",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "ot",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "10:00",
+                            "a": 58,
+                            "h": 29,
+                            "adv": - 1
+                        },
+                        "pt": 4,
+                        "isb": true
+                    }
+                    ],
+                    "cid": 38640,
+                    "cn": "奥林匹克运动会2016男子篮球(在巴西)"
+                }, {
+                    "ces": [{
+                        "eid": 1608978,
+                        "en": "Serbia-W-vs-Spain-W",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "塞尔维亚(女)",
+                        "at": "西班牙(女)",
+                        "ipt": "09:31",
+                        "etts": "Q3",
+                        "hs": {
+                            "v": "31"
+                        },
+                        "as": {
+                            "v": "31"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 2,
+                            "cp": "q3",
+                            "ps": [{
+                                "p": "1h",
+                                "a": 31,
+                                "h": 31
+                            }, {
+                                "p": "ft",
+                                "a": 31,
+                                "h": 31
+                            }, {
+                                "p": "q1",
+                                "a": 19,
+                                "h": 18
+                            }, {
+                                "p": "q2",
+                                "a": 12,
+                                "h": 13
+                            }, {
+                                "p": "q3",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "q4",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "2h",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "ot",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "09:31",
+                            "a": 31,
+                            "h": 31,
+                            "adv": - 1
+                        },
+                        "pt": 4,
+                        "isb": true
+                    }
+                    ],
+                    "cid": 38648,
+                    "cn": "奥林匹克运动会2016女子篮球(在巴西)"
+                }
+                ]
+            }, {
+                "sid": 3,
+                "sn": "网球",
+                "sen": "tennis",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 3,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1621920,
+                        "en": "Viktor-Troicki-SRB-vs-Andrew-Murray-GBR",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "维克托.特洛西奇(塞尔维亚)",
+                        "at": "安迪.穆雷(大不列颠)",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 3,
+                            "cp": "s1",
+                            "ps": [{
+                                "p": "ft",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s1",
+                                "a": 5,
+                                "h": 3
+                            }, {
+                                "p": "s2",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s3",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s4",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "ftg",
+                                "a": 5,
+                                "h": 3
+                            }, {
+                                "p": "p",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s5",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "00:00",
+                            "a": 0,
+                            "h": 0,
+                            "adv": - 1
+                        },
+                        "pt": 3,
+                        "isb": true
+                    }, {
+                        "eid": 1621921,
+                        "en": "Rafael-Nadal-ESP-vs-Federico-Delbonis-ARG",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "拉菲尔.纳达尔(西班牙)",
+                        "at": "费德里科.德尔博尼斯(阿根廷)",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 3,
+                            "cp": "s1",
+                            "ps": [{
+                                "p": "ft",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s1",
+                                "a": 1,
+                                "h": 0
+                            }, {
+                                "p": "s2",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s3",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s4",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "ftg",
+                                "a": 1,
+                                "h": 0
+                            }, {
+                                "p": "p",
+                                "a": 15,
+                                "h": 30
+                            }, {
+                                "p": "s5",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "00:00",
+                            "a": 0,
+                            "h": 0,
+                            "adv": - 1
+                        },
+                        "pt": 3,
+                        "isb": true
+                    }
+                    ],
+                    "cid": 38857,
+                    "cn": "奥林匹克运动会2016男子网球(在巴西)-单打"
+                }, {
+                    "ces": [{
+                        "eid": 1621940,
+                        "en": "Petra-Kvitova-CZE-vs-Timea-Babos-HUN",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "佩特拉.科维托娃(捷克)",
+                        "at": "蒂美亚.贝波丝(匈牙利)",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 3,
+                            "cp": "s2",
+                            "ps": [{
+                                "p": "ft",
+                                "a": 0,
+                                "h": 1
+                            }, {
+                                "p": "s1",
+                                "a": 1,
+                                "h": 6
+                            }, {
+                                "p": "s2",
+                                "a": 2,
+                                "h": 4
+                            }, {
+                                "p": "s3",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s4",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "ftg",
+                                "a": 3,
+                                "h": 10
+                            }, {
+                                "p": "p",
+                                "a": 15,
+                                "h": 30
+                            }, {
+                                "p": "s5",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "00:00",
+                            "a": 0,
+                            "h": 1,
+                            "adv": - 1
+                        },
+                        "pt": 3,
+                        "isb": true
+                    }
+                    ],
+                    "cid": 38866,
+                    "cn": "奥林匹克运动会2016女子网球(在巴西)-单打"
+                }
+                ]
+            }, {
+                "sid": 4,
+                "sn": "棒球",
+                "sen": "baseball",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 4,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1622106,
+                        "en": "NY-Yankees-vs-CLE-Indians",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "纽约洋基队",
+                        "at": "克利夫兰印地安人队",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622108,
+                        "en": "DET-Tigers-vs-NY-Mets",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "底特律老虎队",
+                        "at": "纽约大都会队",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622109,
+                        "en": "TB-Rays-vs-MIN-Twins",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "坦帕光芒队",
+                        "at": "明尼苏达双城",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "1"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "h",
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622111,
+                        "en": "WSH-Nationals-vs-SF-Giants",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "华盛顿国民队",
+                        "at": "旧金山巨人队",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 29400,
+                    "cn": "美国职业棒球"
+                }
+                ]
+            }, {
+                "sid": 23,
+                "sn": "电子竞技",
+                "sen": "e-sports",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 1,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1626337,
+                        "en": "Imperial-vs-BrooDMotherS",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "Imperial",
+                        "at": "BrooDMotherS",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 63225,
+                    "cn": "DOTA2 Offence(3场2胜)"
+                }
+                ]
+            }, {
+                "sid": 13,
+                "sn": "排球",
+                "sen": "volleyball",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 1,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1596425,
+                        "en": "Poland-vs-Egypt",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "波兰",
+                        "at": "埃及",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 13,
+                            "cp": "s1",
+                            "ps": [{
+                                "p": "ft",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s1",
+                                "a": 14,
+                                "h": 17
+                            }, {
+                                "p": "s2",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s3",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s4",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "p",
+                                "a": 14,
+                                "h": 17
+                            }, {
+                                "p": "s5",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "00:00",
+                            "a": 0,
+                            "h": 0,
+                            "adv": - 1
+                        },
+                        "pt": 5,
+                        "isb": true
+                    }
+                    ],
+                    "cid": 38673,
+                    "cn": "奥林匹克运动会2016男子排球(在巴西)"
+                }
+                ]
+            }, {
+                "sid": 16,
+                "sn": "手球",
+                "sen": "handball",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 1,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1596403,
+                        "en": "Denmark-vs-Argentina",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "丹麦",
+                        "at": "阿根廷",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "0"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 38671,
+                    "cn": "奧林匹克运动会2016男子手球(在巴西)"
+                }
+                ]
+            }, {
+                "sid": 20,
+                "sn": "乒乓球",
+                "sen": "table-tennis",
+                "mt": 0,
+                "son": 0,
+                "tc": 0,
+                "tmrc": 0,
+                "ipc": 2,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1625185,
+                        "en": "Alexander-Shibaev-RUS-vs-Jakub-Dyjas-POL",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "亚历山大.史贝伊(俄罗斯)",
+                        "at": "雅各布.迪娅(波兰)",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "4"
+                        },
+                        "as": {
+                            "v": "0"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 20,
+                            "cp": "s5",
+                            "ps": [{
+                                "p": "ft",
+                                "a": 0,
+                                "h": 4
+                            }, {
+                                "p": "s1",
+                                "a": 9,
+                                "h": 11
+                            }, {
+                                "p": "s2",
+                                "a": 8,
+                                "h": 11
+                            }, {
+                                "p": "s3",
+                                "a": 8,
+                                "h": 11
+                            }, {
+                                "p": "s4",
+                                "a": 9,
+                                "h": 11
+                            }, {
+                                "p": "p",
+                                "a": 34,
+                                "h": 44
+                            }, {
+                                "p": "s5",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s6",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s7",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "00:00",
+                            "a": 0,
+                            "h": 4,
+                            "adv": - 1
+                        },
+                        "pt": 7,
+                        "isb": true
+                    }, {
+                        "eid": 1625186,
+                        "en": "Quadri-Aruna-NGA-vs-Wang-Yang-SVK",
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "夸德里.阿鲁纳(尼日利亚)",
+                        "at": "汪洋(斯洛伐克)",
+                        "ipt": "",
+                        "etts": "",
+                        "hs": {
+                            "v": "3"
+                        },
+                        "as": {
+                            "v": "1"
+                        },
+                        "il": false,
+                        "mts": 0,
+                        "isbg": false,
+                        "lts": "",
+                        "sb": {
+                            "s": 20,
+                            "cp": "s5",
+                            "ps": [{
+                                "p": "ft",
+                                "a": 1,
+                                "h": 3
+                            }, {
+                                "p": "s1",
+                                "a": 7,
+                                "h": 11
+                            }, {
+                                "p": "s2",
+                                "a": 11,
+                                "h": 7
+                            }, {
+                                "p": "s3",
+                                "a": 7,
+                                "h": 11
+                            }, {
+                                "p": "s4",
+                                "a": 9,
+                                "h": 11
+                            }, {
+                                "p": "p",
+                                "a": 37,
+                                "h": 48
+                            }, {
+                                "p": "s5",
+                                "a": 3,
+                                "h": 8
+                            }, {
+                                "p": "s6",
+                                "a": 0,
+                                "h": 0
+                            }, {
+                                "p": "s7",
+                                "a": 0,
+                                "h": 0
+                            }
+                            ],
+                            "t": "00:00",
+                            "a": 1,
+                            "h": 3,
+                            "adv": - 1
+                        },
+                        "pt": 7,
+                        "isb": true
+                    }
+                    ],
+                    "cid": 62525,
+                    "cn": "奥林匹克运动会2016男子乒乓球(在巴西)-单打"
+                }
+                ]
+            }
+            ],
+            "v": 127986
+        },
+        "ssm": {
+            "ssmd": [{
+                "sid": 1,
+                "sn": "足球",
+                "sen": "football",
+                "mt": 1,
+                "son": 1,
+                "tc": 30,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1613454,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "德国U23",
+                        "at": "南韩U23",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28895,
+                    "cn": "奥林匹克运动会2016男子足球(在巴西)",
+                    "cen": "Olympics 2016 Men Football (In Brazil)"
+                }, {
+                    "ces": [{
+                        "eid": 1608550,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "罗斯托夫",
+                        "at": "乌拉尔",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27691,
+                    "cn": "俄罗斯超级联赛",
+                    "cen": "Russia Premier League"
+                }, {
+                    "ces": [{
+                        "eid": 1615492,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "哥里迪巴PR",
+                        "at": "邦迪比达SP",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1615501,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "彭美拉斯SP",
+                        "at": "维多利亚BA",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 29083,
+                    "cn": "巴西甲组联赛",
+                    "cen": "Brazil Serie A"
+                }, {
+                    "ces": [{
+                        "eid": 1624786,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "托莱多",
+                        "at": "阿柯孔",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26052,
+                    "cn": "球会友谊赛",
+                    "cen": "Club Friendly"
+                }, {
+                    "ces": [{
+                        "eid": 1620092,
+                        "gt": "N",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "道格拉斯海格",
+                        "at": "圣罗伦素",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 36343,
+                    "cn": "阿根廷杯",
+                    "cen": "Argentina Cup"
+                }, {
+                    "ces": [{
+                        "eid": 1619936,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "巴里",
+                        "at": "科森察",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619937,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "班尼文托",
+                        "at": "沙兰力坦拿",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619938,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "布雷西亚",
+                        "at": "比萨",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619939,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "弗洛辛诺内",
+                        "at": "科木",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619940,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "诺和华",
+                        "at": "祖华史塔比亚",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619941,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "佩鲁贾",
+                        "at": "亚历山德利亚",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619942,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "维塞利",
+                        "at": "雷吉亚那",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619943,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "恩特拉 ",
+                        "at": "安科纳",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619947,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "特拉纳",
+                        "at": "波代诺内",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619948,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "切辛纳",
+                        "at": "阿雷素",
+                        "est": "02:45",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 31,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1619952,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "拉蒂纳",
+                        "at": "马泰拉",
+                        "est": "02:45",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 31,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 26334,
+                    "cn": "意大利杯",
+                    "cen": "Italy Cup"
+                }, {
+                    "ces": [{
+                        "eid": 1622701,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "摩诺波利",
+                        "at": "卡坦萨罗",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622702,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "古比奥",
+                        "at": "森宾尼迪特斯",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1622703,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "路查斯",
+                        "at": "比士托尔斯",
+                        "est": "02:45",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 31,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27468,
+                    "cn": "意大利职业联赛杯",
+                    "cen": "Italy Lega Pro Cup"
+                }, {
+                    "ces": [{
+                        "eid": 1613287,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "皇家加西拉索",
+                        "at": "阿里萨利马",
+                        "est": "02:15",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 1,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27105,
+                    "cn": "秘鲁甲组联赛",
+                    "cen": "Peru Primera Division"
+                }, {
+                    "ces": [{
+                        "eid": 1618348,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "卡梅利塔",
+                        "at": "利蒙",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28188,
+                    "cn": "哥斯达黎加甲组联赛",
+                    "cen": "Costa Rica Primera Division"
+                }, {
+                    "ces": [{
+                        "eid": 1618358,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "夏积杜克",
+                        "at": "艾斯特拉",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 28557,
+                    "cn": "克罗地亚甲组联赛",
+                    "cen": "Croatia 1 HNL"
+                }, {
+                    "ces": [{
+                        "eid": 1615638,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "伯拉根森SP",
+                        "at": "伊图阿诺SP",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 44083,
+                    "cn": "巴西圣保罗州杯",
+                    "cen": "Brazil Paulista Cup"
+                }, {
+                    "ces": [{
+                        "eid": 1622691,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "弗罗勒斯塔CE",
+                        "at": "奥里藏特CE",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 57392,
+                    "cn": "巴西法瑞斯洛佩斯杯",
+                    "cen": "Brazil Fares Lopes Cup"
+                }, {
+                    "ces": [{
+                        "eid": 1621964,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "ABC RN",
+                        "at": "博塔福格PB",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1621965,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "康菲安卡SE",
+                        "at": "古亚伯MT",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1621966,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "沙古尔罗PE",
+                        "at": "ASA AL",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 43960,
+                    "cn": "巴西丙组联赛",
+                    "cen": "Brazil Serie C"
+                }, {
+                    "ces": [{
+                        "eid": 1619434,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "帕特里奥坦斯",
+                        "at": "修罗",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 27314,
+                    "cn": "哥伦比亚甲组联赛",
+                    "cen": "Colombia Primera A"
+                }, {
+                    "ces": [{
+                        "eid": 1623610,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "圣马丁德图库曼",
+                        "at": "图库曼体育会",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 59871,
+                    "cn": "拜森特尼日尔杯(在阿根廷)",
+                    "cen": "Copa Bicentenario (In Argentina)"
+                }
+                ]
+            }, {
+                "sid": 2,
+                "sn": "篮球",
+                "sen": "basketball",
+                "mt": 2,
+                "son": 2,
+                "tc": 1,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1624699,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "乌克兰U18",
+                        "at": "黑山U18",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 29544,
+                    "cn": "FIBA欧洲篮球锦标赛B组U18(在马其顿)",
+                    "cen": "FIBA European Championship U18 Div B (In MKD)"
+                }
+                ]
+            }, {
+                "sid": 3,
+                "sn": "网球",
+                "sen": "tennis",
+                "mt": 2,
+                "son": 3,
+                "tc": 2,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1621935,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "加尔宾.蒙奎露扎(西班牙)",
+                        "at": "叶琳娜.扬科维奇(塞尔维亚)",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1621933,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "卡罗琳.加西亚(法国)",
+                        "at": "特里阿娜.佩雷拉(巴西)",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": true,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 38866,
+                    "cn": "奥林匹克运动会2016女子网球(在巴西)-单打",
+                    "cen": "Olympics 2016 Women Singles Tennis (In Brazil)"
+                }
+                ]
+            }, {
+                "sid": 23,
+                "sn": "电子竞技",
+                "sen": "e-sports",
+                "mt": 2,
+                "son": 5,
+                "tc": 3,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1624710,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "Vox Nihili",
+                        "at": "Murloc Geniuses",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 61372,
+                    "cn": "ESL(风暴英雄)(3场2胜)",
+                    "cen": "ESL (Heroes of the Storm)(Best Of 3)"
+                }, {
+                    "ces": [{
+                        "eid": 1624706,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "NRG Esports",
+                        "at": "Echo Fox",
+                        "est": "03:10",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 56,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 44200,
+                    "cn": "LoL Championship Series(英雄联盟)(5场3胜)",
+                    "cen": "LoL Championship Series (Best Of 5)"
+                }, {
+                    "ces": [{
+                        "eid": 1624709,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "HellRaisers",
+                        "at": "Gambit Gaming",
+                        "est": "03:00",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 46,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 56754,
+                    "cn": "SL i-League StarSeries(反恐精英)(3场2胜)",
+                    "cen": "SL i-League StarSeries (CS:GO)(Best Of 3)"
+                }
+                ]
+            }, {
+                "sid": 20,
+                "sn": "乒乓球",
+                "sen": "table-tennis",
+                "mt": 2,
+                "son": 16,
+                "tc": 4,
+                "tmrc": 0,
+                "ipc": 0,
+                "ec": 0,
+                "psc": 0,
+                "orc": 0,
+                "puc": [{
+                    "ces": [{
+                        "eid": 1625198,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "王曾毅(波兰)",
+                        "at": "博扬.托克奇(斯洛文尼亚)",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1625199,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "高宁(新加坡)",
+                        "at": "保罗.卓林克霍尔(大不列颠)",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1625200,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "克里斯蒂安.卡尔松(瑞典)",
+                        "at": "王建安(刚果)",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }, {
+                        "eid": 1625203,
+                        "gt": "",
+                        "tid": "",
+                        "ior": false,
+                        "ht": "埃曼纽尔.雷伯森(法国)",
+                        "at": "阿德里安.克里桑(罗马尼亚)",
+                        "est": "02:30",
+                        "hs": {},
+                        "as": {},
+                        "il": false,
+                        "mts": 16,
+                        "isbg": false,
+                        "pt": 0,
+                        "isb": false
+                    }
+                    ],
+                    "cid": 62525,
+                    "cn": "奥林匹克运动会2016男子乒乓球(在巴西)-单打",
+                    "cen": "Olympics 2016 Men Singles Table Tennis (In Brazil)"
+                }
+                ]
+            }
+            ],
+            "v": 127986
+        },
+        "tipc": 47,
+        "tssc": 82
+    },
+    "lpc": {
+        "sm": 1,
+        "smv": 0,
+        "imv": 2,
+        "ssv": 2
+    },
+    "mpc": {
+        "pv": 2
+    },
+    "mbd": {
+        "d": {
+            "k": 1,
+            "tn": "zh-cn:inplay",
+            "v": 0,
+            "c": [{
+                "k": 28895,
+                "n": "奥林匹克运动会2016男子足球(在巴西)",
+                "e": [{
+                    "hide": false,
+                    "egn": "",
+                    "k": 1613435,
+                    "heid": 0,
+                    "l": 0,
+                    "o": {},
+                    "n-o": [],
+                    "pts": [],
+                    "ibs": true,
+                    "ibsc": true,
+                    "cel": [],
+                    "cei": {
+                        "ctid": 0,
+                        "n": ""
+                    },
+                    "pk": "1613435",
+                    "ihe": false,
+                    "g": "",
+                    "i": ["斐济U23", "墨西哥U23", "0", "True", "08 / 08", "117:11", "True", "", "0", "0", "1", "5", "Second Half", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2H", "0", "0", "0", "a", "Fiji-U23-vs-Mexico-U23", "0", "True"],
+                    "edt": "2016-08-08T00:00:00",
+                    "pvdr": "p",
+                    "mts": 0
+                }
+                ],
+                "ec": 0,
+                "hasor": false
+            }
+            ],
+            "n": "足球",
+            "en": "football"
+        },
+        "v": 1536731,
+        "ec": 0,
+        "t": 1,
+        "r": 30
+    },
+    "selobj": {
+        "pid": 0,
+        "isp": false,
+        "spt": 1,
+        "sptn": "football",
+        "evt": 1613435,
+        "cids": "28895",
+        "dp": 0,
+        "favT": 0,
+        "btp": "default",
+        "uibt": "",
+        "edt": "07/Aug/2016",
+        "isfd": false,
+        "ip": true,
+        "ipo": false,
+        "ifl": true
+    }
+}
+

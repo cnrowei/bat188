@@ -1,0 +1,164 @@
+#container #lt-center header .tableContainer .mainMarkets-show .leftPart _:-ms-lang(x),#container #lt-center header .tableContainer .mainMarkets-show .leftPart .icon-MainMarketsshowleft {
+	left: 2px;
+	top: 4px
+}
+
+#container #lt-center header .tableContainer .mainMarkets-show .leftPart _:-ms-lang(x):before,#container #lt-center header .tableContainer .mainMarkets-show .leftPart .icon-MainMarketsshowleft:before {
+	font-size: 15px!IMPORTANT
+}
+
+#container #lt-center header .tableContainer .mainMarkets-show .leftPart _:-ms-lang(x),#container #lt-center header .tableContainer .mainMarkets-show .leftPart .icon-MainMarketsHideleftminur {
+	left: -1px;
+	top: 0
+}
+
+#container #lt-center header .tableContainer .mainMarkets-show .leftPart _:-ms-lang(x):before,#container #lt-center header .tableContainer .mainMarkets-show .leftPart .icon-MainMarketsHideleftminur:before {
+	font-size: 13px
+}
+
+#container #lt-center header .tableContainer .mainMarkets-show _:-ms-lang(x),#container #lt-center header .tableContainer .mainMarkets-show .rightPart {
+	height: 10px
+}
+
+_:-ms-lang(x),#container #lt-center {
+	height: auto;
+	overflow: hidden
+}
+
+_:-ms-lang(x),#container #lt-center .sport-container .event-container .eventTable thead .topPart th {
+	font-size: 10px
+}
+
+_:-ms-lang(x),#container #lt-center .sport-container .event-container .eventTable thead .bottomPart th {
+	font-size: 10px
+}
+
+_:-ms-lang(x),#container #lt-center .sport-container .event-container .eventTable tbody td {
+	min-height: 23px
+}
+
+_:-ms-lang(x),.res1440 .right-enlarge.left-normal#center-panel .notification {
+	left: 603px
+}
+
+_:-ms-lang(x),.res1440 .right-enlarge.left-normal#center-panel .notification {
+	left: 603px
+}
+
+_:-ms-lang(x),.res1280 .right-normal.left-normal#center-panel .notification {
+	left: 613px
+}
+
+_:-ms-lang(x),.res1280 .right-enlarge.left-min#center-panel .notification {
+	left: 438px
+}
+
+_:-ms-lang(x),.res1024 .right-normal.left-normal#center-panel .notification {
+	left: 485px
+}
+
+_:-ms-lang(x),.res1024 .right-enlarge.left-min#center-panel .notification {
+	left: 310px
+}
+
+_:-ms-lang(x),.res1024 .right-normal.left-min#center-panel .notification {
+	left: 399px
+}
+
+_:-ms-lang(x),#container #lt-center .pagination .paginationContainer .previous {
+	line-height: 20px
+}
+
+_:-ms-lang(x),#container #lt-center .pagination .paginationContainer .next {
+	line-height: 20px
+}
+
+_:-ms-lang(x),.topPart {
+	height: 15px
+}
+
+_:-ms-lang(x),.bottomPart {
+	height: 15px
+}
+
+_:-ms-lang(x),#center-panel {
+	margin-left: 227px
+}
+
+_:-ms-lang(x),#center-panel {
+	margin-left: 227px
+}
+
+_:-ms-lang(x),#center-panel {
+	min-width: 533px
+}
+
+_:-ms-lang(x),#center-panel.left-min {
+	margin-left: 57px\0
+}
+
+#center-panel {
+	margin-left: 227px\0
+}
+
+#center-panel {
+	margin-left: 227px\9
+}
+
+.topPart,.bottomPart {
+	height: 15px \0
+}
+
+.topPart,.bottomPart {
+	height: 15px \9
+}
+
+@media screen\0 {
+	#container #lt-center {
+		height: auto
+	}
+
+	#container #lt-center .sport-container .event-container .eventTable thead .topPart th,#container #lt-center .sport-container .event-container .eventTable thead .bottomPart th {
+		font-size: 10px
+	}
+
+	#container #lt-center .sport-container .event-container .eventTable tbody td {
+		min-height: 23px
+	}
+
+	.topPart,.bottomPart {
+		height: 15px
+	}
+
+	.res1440 .right-enlarge.left-normal#center-panel .notification {
+		left: 603px
+	}
+
+	.res1440 .right-enlarge.left-normal#center-panel .notification {
+		left: 603px
+	}
+
+	.res1280 .right-normal.left-normal#center-panel .notification {
+		left: 613px
+	}
+
+	.res1280 .right-enlarge.left-min#center-panel .notification {
+		left: 438px
+	}
+
+	.res1024 .right-normal.left-normal#center-panel .notification {
+		left: 485px
+	}
+
+	.res1024 .right-enlarge.left-min#center-panel .notification {
+		left: 310px
+	}
+
+	.res1024 .right-normal.left-min#center-panel .notification {
+		left: 399px
+	}
+}
+
+.odds.locked .lockedBg {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSJ3aGl0ZSI+PC9yZWN0Pgo8cGF0aCBkPSJNMCA1TDUgMFpNNiA0TDQgNlpNLTEgMUwxIC0xWiIgc3Ryb2tlPSIjZjNmM2YzIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+")
+}

@@ -1,0 +1,16 @@
+<div class="marquee-placer" ng-if="topAnnouncement.length>0">
+    <div class="marquee-centered">
+        <div class="media">
+            <div class="media-left"><span class="marquee-title" data-translate="txtComAnnouncement">Announcement</span></div>
+            <div class="media-body">
+                <div class="marquee-wrapper">
+                    <ul id="announceHeaderBar" class="marquee-list list-unstyled list-inline" ng-mouseover="runConfig.isRun=false" ng-mouseleave="runConfig.isRun=true" >
+                        <li ng-repeat="announcement in topAnnouncement" class="marquee-item">
+                            <span id="{{announcement.id}}">{{announcement.body.join()}}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

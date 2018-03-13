@@ -1,0 +1,76 @@
+{
+    "s": [{
+            "ip": false, 
+            "ap": true, 
+            "bn": "选择第一位号码", 
+            "sn": "01", 
+            "as": 0, 
+            "hs": 0, 
+            "eid": 1617091, 
+            "en": "湖南快乐十分", 
+            "hd": "null", 
+            "cpn": "湖南快乐十分", 
+            "sid": 1119534225, 
+            "st": 0, 
+            "bs": {
+                "bmin": 10, 
+                "bmax": 49800, 
+                "dm": "49,800", 
+                "bpay": 50000
+            }, 
+            "bo": 0, 
+            "o": 9, 
+            "eo": 9, 
+            "rsl": 0, 
+            "wid": 0, 
+            "tl": "OR", 
+            "cv": 0, 
+            "wo": 0, 
+            "ishp": false, 
+            "isnu": false, 
+            "isds": false, 
+            "ors": "", 
+            "edt": "2016-08-04T03:00:00", 
+            "idan": false, 
+            "peid": 1617091
+        }
+    ], 
+    "c": [ ], 
+    "cinfo": [
+        {
+            "cbn": "单注", 
+            "wid": 1, 
+            "cbs": {
+                "bmin": 0, 
+                "bmax": 0, 
+                "bpay": 0
+            }, 
+            "cba": 0
+        }, 
+        {
+            "cbn": "2串1", 
+            "wid": 2, 
+            "cbs": {
+                "bmin": 0.5, 
+                "bmax": 249, 
+                "dm": "249", 
+                "bpay": 0
+            }, 
+            "cba": 0
+        }
+    ], 
+    "bo": 0, 
+    "berr": 6666, 
+    "cno": 0, 
+    "islog": true, 
+    "issa": false, 
+    "isca": false, 
+    "cc": "RMB", 
+    "ot": 2, 
+    "l": "CHS", 
+    "k": false, 
+    "ko": false, 
+    "abo": false, 
+    "sbc": true, 
+    "bal": 301.7399
+}

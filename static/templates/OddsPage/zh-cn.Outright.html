@@ -1,0 +1,69 @@
+<div data-reactid=".3">
+<div data-reactid=".3.0"></div>
+<div data-reactid=".3.1"></div>
+<div data-reactid=".3.2"></div>
+<div class="mg-t-1 bg-c-14 pos-relative height-40 lht-40 pd-l-10 pd-r-10" id="fbContainer" data-reactid=".3.3" style="width: 748px;">
+<div class="float-left hidden" data-reactid=".3.3.0">
+<span class="back dsp-iblk bg-c-12 radius iconbg-s t-va-m" data-reactid=".3.3.0.0">
+<span class="dsp-iblk icon-DoubleArrowHorizontalLeft fts-16 wh-ht-22 lht-22" data-reactid=".3.3.0.0.0"></span></span></div>
+
+<div class="float-right hidden" data-reactid=".3.3.1"><span class="back dsp-iblk bg-c-12 radius iconbg-s t-va-m" data-reactid=".3.3.1.0"><span class="dsp-iblk icon-DoubleArrowHorizontalRight fts-16 wh-ht-22 lht-22" data-reactid=".3.3.1.0.0"></span></span></div>
+
+<div class="fts-13 ft-c-27 pos-relative ws-nowrap" data-reactid=".3.3.2">
+<div class="width-35 right-0 height-40 pos-absolute gradientFadeOut-r hidden" id="fg" data-reactid=".3.3.2.0"></div>
+<div class="pos-relative ws-nowrap ofw-hidden" id="filterbar" data-reactid=".3.3.2.1">
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35 actived" data-ex="|p|" data-reactid=".3.3.2.1.$f0">所有球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="" data-reactid=".3.3.2.1.$f1" data-toggle="tab">第一球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="|h|" data-reactid=".3.3.2.1.$f2">第二球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="|s|" data-reactid=".3.3.2.1.$f3">第三球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="|f|" data-reactid=".3.3.2.1.$f4">第四球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="|f|" data-reactid=".3.3.2.1.$f5">第五球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="|f|" data-reactid=".3.3.2.1.$f6">第六球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-35" data-ex="|f|" data-reactid=".3.3.2.1.$f7">第七球</div>
+<div class="dsp-iblk t-va-m lht-0p3 filters mg-r-16" data-ex="|f|" data-reactid=".3.3.2.1.$f8">第八球</div>
+</div></div></div>
+
+
+<script type="text/javascript">
+$('div.dsp-iblk').click(function (e) {
+  e.preventDefault()
+  //$(this).tab('show')
+  $('#e1617091').hide();
+  console.log($(this).attr('data-reactid'));
+});
+
+
+</script>
+
+
+<div class="sport-container"> <h2 class="sport-title"> 
+<div class="tableContainer"> <table class="width-100p height-39"> <colgroup> <col> <col class="col-fixed200"> </colgroup> <tbody> <tr> <td class="lht-0p7"> <div class="sportName collapsed" id="quickMenu"> 冠军<span class="pos-relative arrowWithTick"> <span class="icon-ArrowDown"></span> <span class="tick dsp-iblk"></span> </span> <div id="quickMenuContainer"><div class="dropDownContainer right" id="quickMenuOptions"></div></div> </div> </td> <td> </td> </tr> </tbody> </table> </div> </h2> {for competition in c} {var idx = 0;} {for event in competition.e} {var odds = event["n-o"];} <div class="cp-container"> <h3 class="competitionName expand" id="ct${competition.k}"> <div class="tableContainer"> <div class="float-right fts-12"> <span class="ft-c-18 mg-r-6">{if event.i[4] == "t"}${l.td}{else}${event.i[4]}{/if}</span> <span class="ft-c-14">${event.i[5]}</span> </div> <span class="cpn"></span>${event.egn}</span> </div> </h3> 
+
+
+<div class="event-container parent layout-outright" id="c${competition.k}"> {for i in odds} <div class="event" id="e${event.k}" data="f${i.f}"> <table class="eventTable"> <colgroup> <col class="cg-OE"> <col class="cg-OE"> <col class="cg-OE"> <col class="cg-OE"> </colgroup> <tbody> <tr class="subHeader"> <td colspan="4">${i.mn}</td> </tr> {var tmp = 0;} {var even = true;} {var selections = i.o;} {for sel in selections} {if tmp % 4 == 0} {var even = (even ? false : true);} {var nextIdx = tmp + 1;} {var selNxt = selections[nextIdx];} {var nextIdx2 = tmp + 2;} {var selNxt2 = selections[nextIdx2];} {var nextIdx3 = tmp + 3;} {var selNxt3 = selections[nextIdx3];} 
+<tr> 
+<td class="td-ortright-odds borderBottom"> {if selections[sel_index] != null && sel[2] != "0.00"} 
+<span class="odds" title="${sel[0]}" id="${sel[1]}">${sel[2]}</span> 
+<span class="outrightName">${sel[0]}</span> {/if} </td> 
+
+<td class="td-ortright-odds borderBottom leftBorder"> {if selNxt != null && selNxt[2] != "0.00"} 
+<span class="odds" title="${selNxt[0]}" id="${selNxt[1]}">${selNxt[2]}</span> 
+<span class="outrightName">${selNxt[0]}</span> {/if} </td> 
+
+<td class="td-ortright-odds borderBottom leftBorder"> {if selNxt2 != null && selNxt2[2] != "0.00"} 
+<span class="odds" title="${selNxt2[0]}" id="${selNxt2[1]}">${selNxt2[2]}</span> 
+<span class="outrightName">${selNxt2[0]}</span> {/if} </td> 
+
+<td class="td-ortright-odds borderBottom leftBorder"> {if selNxt3 != null && selNxt3[2] != "0.00"} 
+<span class="odds" title="${selNxt3[0]}" id="${selNxt3[1]}">${selNxt3[2]}</span> 
+<span class="outrightName">${selNxt3[0]}</span> {/if} </td> 
+
+</tr> {/if} 
+
+{var tmp = tmp + 1;} {/for} 
+</tbody> 
+</table> </div> {/for} </div> </div> {/for} 
+<!-- end for events --> 
+{/for} 
+<!-- end for competition --> 
+</div>

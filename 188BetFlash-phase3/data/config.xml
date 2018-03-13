@@ -1,0 +1,126 @@
+<config>
+  <params bundle="config">
+
+    <param name="base">.</param>
+    <param name="cacheControlSuffix"></param>
+
+    <param name="contentFeed.cacheRole">server</param>
+
+    <!-- locale for loading configs -->
+    <param name="locale">en-GB</param>
+
+    <param name="betstreamBase">{betgeniusBase}/betstream-view</param>
+
+	<param name="incidentFeed.url">{betstreamBase}/{clientBaseURL}/getIncidentFeedPrioritised?culture={locale}&cb={timestamp}</param>
+    <param name="contentFeed.url">{betstreamBase}/{clientBaseURL}/eventDetailsPrioritised?eventId={eventId}&culture={locale}&cb={timestamp}</param>
+    <param name="coverageLevelFeed.url">{betstreamBase}/getEventCoverage?cb={timestamp}</param>
+    <param name="serverTime.url">{betstreamBase}/getCurrentTime?&cb={timestamp}</param>
+    <!--
+    <param name="incidentFeed.url">data/incidents.json</param>
+    <param name="contentFeed.url">data/event_{eventId}.json</param>
+    <param name="coverageLevelFeed.url">data/coverageLevel.json</param>
+    <param name="serverTime.url">data/serverTime.json</param>
+    -->
+
+    <param name="serverTime.pollDelay">10000</param>
+    <param name="serverTime.pollDelay.live">5000</param>
+    <param name="serverTime.pollDelay.countdown">10000</param>
+    <param name="serverTime.pollDelay.prelive">10000</param>
+    <param name="serverTime.pollDelay.finished">90000</param>
+    <param name="serverTime.timeout">20000</param>
+    <param name="serverTime.expireCache">6000</param>
+    <param name="serverTime.cacheType">LocalConnectionPull</param>
+    <param name="serverTime.passThroughRequests">true</param>
+    <param name="serverTime.cacheConnection">serverTime_{applicationInstanceId}</param>
+    <param name="serverTime.priority">10</param>
+
+    <param name="incidentFeed.pollDelay">5000</param>
+    <param name="incidentFeed.timeout">20000</param>
+    <param name="incidentFeed.expireCache">6000</param>
+    <param name="incidentFeed.cacheType">LocalConnectionPull</param>
+    <param name="incidentFeed.passThroughRequests">true</param>
+    <param name="incidentFeed.cacheConnection">serverTime_{applicationInstanceId}</param>
+    <param name="incidentFeed.priority">10</param>
+
+    <param name="contentFeed.timeout">20000</param>
+    <param name="contentFeed.expireCache">6000</param>
+    <param name="contentFeed.cacheType">LocalConnectionPull</param>
+    <param name="contentFeed.passThroughRequests">true</param>
+    <param name="contentFeed.cacheConnection">contentFeed_{applicationInstanceId}</param>
+    <param name="contentFeed.priority">10</param>
+
+    <param name="coverageLevelFeed.timeout">20000</param>
+    <param name="coverageLevelFeed.expireCache">6000</param>
+    <param name="coverageLevelFeed.cacheType">LocalConnectionPull</param>
+    <param name="coverageLevelFeed.passThroughRequests">true</param>
+    <param name="coverageLevelFeed.cacheConnection">contentFeed_{applicationInstanceId}</param>
+    <param name="coverageLevelFeed.priority">10</param>
+
+    <param name="pollCache.LocalConnection.domain"></param>
+
+    <param name="pollCache.SharedObject.name">pollCache</param>
+    <param name="pollCache.SharedObject.useCompression">true</param>
+    <param name="pollCache.LocalConnectionPull.maxFailures">4</param>
+
+    <param name="preferences.SharedObject.name">preferences</param>
+    <param name="preferences.SharedObject.path">/</param>
+    <param name="preferences.SharedObject.secure">false</param>
+
+    <param name="ignoreCoverageLevel">false</param>
+
+    <param name="externalAPI.resizeContent">resizeContainer</param>
+
+    <param name="sportId">1</param>
+
+    <!-- Specify these parameters in projects -->
+    <!--
+    <param name="clientBaseURL"></param>
+    <param name="selectEvent.url"></param>
+    <param name="video.perform.url"></param>
+    <param name="video.unas.url"></param>
+    -->
+
+    
+<param name="clientBaseURL">188bet-flash-sc</param>		
+<param name="updatesDomain">http://preview.188bet.com</param>
+<param name="selectEvent.url">{updatesDomain}/{0}/sports/{1}/in-play</param>
+
+<param name="eventSummaryFeed.url">{betstreamBase}/{clientBaseURL}/eventDetailsPrioritised?eventId={eventSummaryId}&culture={locale}&cb={timestamp}</param>
+<!-- 
+<param name="eventSummaryFeed.url">data/eventSummary.json</param>
+-->
+
+<param name="eventSummaryFeed.timeout">20000</param>
+<param name="eventSummaryFeed.expireCache">6000</param>
+<param name="eventSummaryFeed.cacheType">LocalConnectionPull</param>
+<param name="eventSummaryFeed.passThroughRequests">true</param>
+<param name="eventSummaryFeed.cacheConnection">contentFeed_{applicationInstanceId}</param>
+<param name="eventSummaryFeed.priority">10</param>
+
+<param name="video.perform.url">https://secure.188.performgroup.com/streaming/urls/event/index.html?userId={0}&partnerId={1}&eventId={2}&key={3}&ncid={4}</param>
+<param name="video.unas.url">http://streamaccess.unas.tv/flash/{0}/{1}.xml?streamid={1}&partnerid={0}&timestamp={2}&auth={3}&label=1</param>
+
+<param name="showUpdates">false</param>
+<param name="showUpdatesView">true</param>
+
+<!-- English Premier League - 36, Champions League - 19, European Championships - 51, World Cup 2014 - 215, 
+World Cup Europe Qualification ??? 4360, World Cup CONCACAF Qualification ??? 4364, World Cup South America Qualification ??? 4366, 
+World Cup Oceania Qualification ??? 4365, World Cup Asia Qualification - 4359, World Cup Africa Qualification ??? 4358 -->
+<param name="supportedChineseCompetitions">36,19,51,215,4360,4364,4366,4365,4359,4358</param>
+	
+
+
+  </params>
+
+  <load-config src="content-config.xml?v={cacheControlSuffix}"/>
+
+  <load-config bundle="betstream" src="locales/{locale}/betstream.xml?v={cacheControlSuffix}" locale="{locale}" />
+  <load-config bundle="content" src="locales/{locale}/content.xml?v={cacheControlSuffix}" locale="{locale}"/>
+  <load-config bundle="video" src="locales/{locale}/video.xml?v={cacheControlSuffix}" locale="{locale}"/>
+
+  <categories>
+    <category name="football" categoryId="10"/>
+  </categories>
+
+</config>
+

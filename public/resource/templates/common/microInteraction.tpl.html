@@ -1,0 +1,10 @@
+<div class="hd-alerts-dd">    
+    <div class="container centered-alert">
+        <div class="small-alert">
+            <div class="alert-message jackpot fade" ng-repeat="mi in miList | reverse" ng-class="{'in':!mi.fade}">
+                <span class="alert-message-text font-14">{{mi.body}}</span>
+                <span class="betfont icon-close close-alert" ng-click="mi.fade=true;"></span>
+            </div>
+        </div>      
+    </div>  
+</div>

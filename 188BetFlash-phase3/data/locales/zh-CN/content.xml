@@ -1,0 +1,72 @@
+<config>
+	<params bundle="content">
+		
+		<!-- tabs and team stats headings -->
+		<param name="tab.name.video">直播</param>
+		<param name="tab.name.highlights">滚球</param>
+		<param name="tab.name.commentary">注解</param>
+		<param name="tab.name.matchStatistics">数据统计</param>
+		<param name="tab.name.teamStatistics">球队</param>
+		<param name="tab.name.updates">最新信息</param>
+		<param name="teamStats.subs">代替球員</param>
+		
+		<!-- no updates or commentary messages -->
+		<param name="updates.noUpdates">此时没有新信息</param>
+		<param name="commentary.noActions">目前没有注解</param>
+		
+		<!-- stats plural -->
+		<param name="stats.football.goals.plural">进球数</param>
+		<param name="stats.football.ownGoals.plural">乌龙球</param>
+		<param name="stats.football.shotsOnTarget.plural">射正球门</param>
+		<param name="stats.football.shotsOffTarget.plural">射偏球门</param>
+		<param name="stats.football.shotsWoodwork.plural">射中门框次数</param>
+		<param name="stats.football.shotsBlocked.plural">被阻止</param>
+		<param name="stats.football.totalShots.plural">总射门数</param>
+		<param name="stats.football.goalKicks.plural">球门球数</param>
+		<param name="stats.football.freeKicks.plural">任意球数</param>
+		<param name="stats.football.dangerousFreeKicks.plural">危险任意球数</param>
+		<param name="stats.football.offsides.plural">越位次数</param>
+		<param name="stats.football.corners.plural">角球数</param>
+		<param name="stats.football.fouls.plural">犯规总数</param>
+		<param name="stats.football.yellowCards.plural">黄卡数</param>
+		<param name="stats.football.secondYellowCards.plural">第二张黄卡</param>
+		<param name="stats.football.redCards.plural">红卡数</param>
+		<param name="stats.football.possessions.plural">控球</param>
+		<param name="stats.football.substitutions.plural">代替球員</param>
+		<param name="stats.football.penalties.plural">点球</param>
+		<param name="stats.football.attacks.plural">攻击</param>
+		<param name="stats.football.dangerousAttacks.plural">危险进攻次数</param>
+		<param name="stats.football.throwIns.plural">掷界外球</param>
+		
+		<!-- stats singular -->
+		<param name="stats.football.throwIns.singular">掷界外球</param>
+		<param name="stats.football.corners.singular">角球</param>
+		<param name="stats.football.goalKicks.singular">射门</param>
+		<param name="stats.football.attackingFreeKicks.singular">任意球</param>
+		<param name="stats.football.dangerousFreeKicks.singular">危险任意球</param>
+		<param name="stats.football.yellowCards.singular">黄卡</param>
+		<param name="stats.football.secondYellowCards.singular">第二张黄卡</param>
+		<param name="stats.football.redCards.singular">红卡</param>
+		<param name="stats.football.penalties.singular">点球</param>
+		<param name="stats.football.substitutions.singular">代替球員</param>
+		<param name="stats.football.possessionChanges.singular">控球</param>
+		<param name="stats.football.attacks.singular">攻击</param>
+		<param name="stats.football.dangerousAttacks.singular">危险进攻</param>
+		<param name="stats.football.shotsOnTarget.singular">射进球门</param>
+		<param name="stats.football.shotsOffTarget.singular">射偏球门</param>
+		<param name="stats.football.shotsWoodwork.singular">射中门框</param>
+		<param name="stats.football.shotsBlocked.singular">射门被挡</param>
+		<param name="stats.football.offsides.singular">越位</param>
+		<param name="stats.football.fouls.singular">犯规</param>
+		<param name="stats.football.goals.singular">进球</param>
+		<param name="stats.football.ownGoals.singular">乌龙球</param>
+		
+		<!-- stats other -->
+		<param name="stats.football.substitutions.on">替补上场</param>
+		<param name="stats.football.substitutions.off">替补下场</param>
+		<param name="stats.football.goals.scores">进球得分</param>
+		<param name="stats.football.periodSummary">总结报告</param>
+		<param name="stats.football.ownGoals.short">乌龙球</param>
+		
+	</params>
+</config>

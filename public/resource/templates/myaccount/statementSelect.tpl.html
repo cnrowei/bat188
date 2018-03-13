@@ -1,0 +1,12 @@
+<span dropdown class="tabbed-select custom-select pull-right" ng-if="list.length > 0">
+	<button type="button" class="ng-tabbed-select data-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="true" >
+	    <span translate="{{currentselectkey}}"  ></span>
+	    <span class="betfont icon-10px icon-caretdownthin icon-caretdownthin"></span>
+	</button>  
+	<ul class="dropdown-menu dark-menu">
+	    <li ng-repeat="l in list">
+	        <a translate="{{::l.key}}" ng-click="changeselect(l)"></a>
+	    </li>
+	    
+	</ul>
+</span>

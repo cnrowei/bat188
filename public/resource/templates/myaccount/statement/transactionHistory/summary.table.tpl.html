@@ -1,0 +1,39 @@
+<table class="table dark-head-foot table-bordered">
+    <colgroup>
+        <col class="tbl-col-md">
+        <col class="tbl-col-md">
+        <col class="tbl-col-md">
+    </colgroup>
+    <thead>
+        <tr>
+            <th class="text-center" translate="txtStatementTransactionType">Transaction Type</th>
+            <th class="text-center" translate="txtStatementDebit">Debit</th>
+            <th class="text-center" translate="txtStatementCredit">Credit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-if="tranHisCtrl.transModel.length==0">
+            <td class="text-center" colspan="8" translate="msgComNoRecordFound"></td>
+        </tr>
+        <tr ng-repeat="rowdata in tranHisCtrl.transModel">
+            <td class="text-center">
+                <a ng-href="{{tranHisCtrl.getTxnTypeLink(rowdata.TxnName)}}"><span translate="txtTransType{{rowdata.TxnName}}"></span></a>
+            </td>
+            <td class="text-right" ng-switch="::rowdata.Debit">
+                <span ng-switch-when="0">-</span>
+                <span ng-switch-default>{{ rowdata.Debit | abs | number:2 }}</span>
+            </td>
+            <td class="text-right" ng-switch="::rowdata.Credit">
+                <span ng-switch-when="0">-</span>
+                <span ng-switch-default>{{ rowdata.Credit | number:2}}</span>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr ng-if="tranHisCtrl.transModel.length >0 ">
+            <td class="text-right"><span translate="txtStatementTotalForPeriodSelected"></span> : </td>
+            <td class="text-right">{{ tranHisCtrl.transModel | sum:'Debit' | abs | number:2 }}</td>
+            <td class="text-right">{{ tranHisCtrl.transModel | sum:'Credit' | number:2}}</td>
+        </tr>
+    </tfoot>
+</table>

@@ -1,0 +1,163 @@
+<contentConfig>
+	
+	<params>
+		<param name="scorecentre.alertDisplayTime">8</param>
+	</params>
+	
+	<module categoryId="football">
+		
+		<periods>
+			<period name="Scheduled" id="PreMatch"/>
+			<period name="FirstHalf" id="FirstHalf"/>
+			<period name="HalfTime" id="HalfTime"/>
+			<period name="SecondHalf" id="SecondHalf"/>
+			<period name="PreExtraTime" id="BeforeExtraTime"/>
+			<period name="ExtraTimeFirstHalf" id="ExtraTimeFirstHalf"/>
+			<period name="ExtraTimeHalfTime" id="ExtraTimeHalfTime"/>
+			<period name="ExtraTimeSecondHalf" id="ExtraTimeSecondHalf"/>
+			<period name="PreShootout" id="BeforePenalties"/>
+			<period name="Shootout" id="Penalties"/>
+			<period name="Finished" id="PostMatch"/>
+			<period name="Abandoned" id="MatchAbandoned"/>
+		</periods>
+		
+		<highlightsTab>
+			<pitch minDisplayTime="4" defaultDisplayTime="8" maxDisplayTime="45" expiryTime="30">
+				<action name="periodChange" priority="100"/>
+				<action name="shotsOnTarget" priority="100"/>
+				<action name="goals" priority="99"/>
+				<action name="ownGoals" priority="98"/>
+				<action name="penalties" priority="97"/>
+				<action name="redCards" priority="95"/>
+				<action name="secondYellowCards" priority="90"/>
+				<action name="yellowCards" priority="85"/>
+				<action name="fouls" priority="81"/>
+				<action name="dangerousFreeKicks" priority="80"/>
+				<action name="corners" priority="75"/>
+				<action name="substitutions" priority="70"/>
+				<action name="dangerousAttacks" priority="65"/>
+				<action name="attacks" priority="60"/>
+				<action name="attackingFreeKicks" priority="55"/>
+				<action name="shotsOffTarget" priority="50"/>
+				<action name="shotsWoodwork" priority="50"/>
+				<action name="shotsBlocked" priority="50"/>
+				<action name="offsides" priority="45"/>
+				<action name="goalKicks" priority="39"/>
+				<action name="possessionChanges" priority="37"/>
+				<action name="throwIns" priority="36"/>
+				
+				<action name="possessionsStatistic" priority="35"/>
+				<action name="cornersStatistic" priority="30"/>
+				<action name="redCardsStatistic" priority="28"/>
+				<action name="yellowCardsStatistic" priority="27"/>
+				<action name="foulsStatistic" priority="25"/>
+				<action name="totalShotsStatistic" priority="20"/>
+				<action name="shotsOnTargetStatistic" priority="15"/>
+				<action name="shotsOffTargetStatistic" priority="10"/>
+				<action name="offsidesStatistic" priority="5"/>
+			</pitch>
+			<periodSummary>
+				<allowedActions>
+					<statistic name="corners"/>
+					<statistic name="goalKicks"/>
+					<statistic name="freeKicks"/>
+					<statistic name="dangerousFreeKicks"/>
+					<statistic name="fouls"/>
+					<statistic name="yellowCards"/>
+					<statistic name="redCards"/>
+					<statistic name="possessions" unit="%"/>
+					<statistic name="shotsOnTarget"/>
+					<statistic name="shotsOffTarget"/>
+					<statistic name="shotsBlocked"/>
+					<statistic name="shotsWoodwork"/>
+					<statistic name="penalties"/>
+					<statistic name="totalShots"/>
+					<statistic name="offsides"/>
+					<statistic name="substitutions"/>
+					<statistic name="attacks"/>
+					<statistic name="dangerousAttacks"/>
+					<statistic name="throwIns"/>
+				</allowedActions>
+			</periodSummary>
+			<timeline>
+				<periods>
+					<period name="Scheduled" isTimedPeriod="false" type="normal"/>
+					<period name="FirstHalf" isTimedPeriod="true" type="normal"/>
+					<period name="HalfTime" isTimedPeriod="false" type="normal"/>
+					<period name="SecondHalf" isTimedPeriod="true" type="normal"/>
+					<period name="PreExtraTime" isTimedPeriod="false" type="extraTime"/>
+					<period name="ExtraTimeFirstHalf" isTimedPeriod="true" type="extraTime"/>
+					<period name="ExtraTimeHalfTime" isTimedPeriod="false" type="extraTime"/>
+					<period name="ExtraTimeSecondHalf" isTimedPeriod="true" type="extraTime"/>
+					<period name="PreShootout" isTimedPeriod="false" type="shootout"/>
+					<period name="Shootout" isTimedPeriod="false" type="shootout"/>
+					<period name="Finished" isTimedPeriod="false" type="normal"/>
+				</periods>
+				<allowedActions>
+					<action actionType="goals"/>
+					<action actionType="ownGoals"/>
+					<action actionType="yellowCards"/>
+					<action actionType="secondYellowCards"/>
+					<action actionType="redCards"/>
+					<action actionType="substitutions"/>
+				</allowedActions>
+			</timeline>
+		</highlightsTab>
+		
+		<commentaryTab>
+			<allowedActions>
+				<action actionType="goals"/>
+				<action actionType="ownGoals"/>
+				<action actionType="yellowCards"/>
+				<action actionType="secondYellowCards"/>
+				<action actionType="redCards"/>
+				<action actionType="fouls"/>
+				<action actionType="offsides"/>
+				<action actionType="shotsOnTarget"/>
+				<action actionType="shotsOffTarget"/>
+				<action actionType="shotsWoodwork"/>
+				<action actionType="shotsBlocked"/>
+				<action actionType="corners"/>
+				<action actionType="penalties"/>
+				<action actionType="substitutions"/>
+			</allowedActions>
+		</commentaryTab>
+		
+		<matchStatistics>
+			<allowedActions>
+				<statistic name="attacks"/>
+				<statistic name="dangerousAttacks"/>
+				<statistic name="possessions" unit="%"/>
+				<statistic name="totalShots"/>
+				<statistic name="shotsOnTarget"/>
+				<statistic name="shotsOffTarget"/>
+				<statistic name="shotsBlocked"/>
+				<statistic name="shotsWoodwork"/>
+				<statistic name="corners"/>
+				<statistic name="penalties"/>
+				<statistic name="redCards"/>
+				<statistic name="yellowCards"/>
+				<statistic name="freeKicks"/>
+				<statistic name="dangerousFreeKicks"/>
+				<statistic name="fouls"/>
+				<statistic name="substitutions"/>
+				<statistic name="offsides"/>
+				<statistic name="throwIns"/>
+				<statistic name="goalKicks"/>
+			</allowedActions>
+		</matchStatistics>
+		
+		<teamStatistics>
+			<allowedActions>
+				<action actionType="substitutions"/>
+				<action actionType="goals"/>
+				<action actionType="ownGoals"/>
+				<action actionType="yellowCards"/>
+				<action actionType="secondYellowCards"/>
+				<action actionType="redCards"/>
+			</allowedActions>
+		</teamStatistics>
+		
+	</module>
+	
+</contentConfig>

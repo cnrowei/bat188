@@ -1,0 +1,70 @@
+{
+    "s": [
+        {
+            "ip": true, 
+            "ap": false, 
+            "bn": "滚球 让球", 
+            "sn": "加斯梅登", 
+            "hn": "加斯梅登", 
+            "an": "塔古穆瑞斯", 
+            "as": 2, 
+            "hs": 0, 
+            "eid": 1619453, 
+            "en": "加斯梅登 - 塔古穆瑞斯", 
+            "hd": "0", 
+            "cpn": "罗马尼亚联赛杯", 
+            "sid": 1120943825, 
+            "st": 10, 
+            "bs": {
+                "bmin": 10, 
+                "bmax": 20000, 
+                "dm": "20,000", 
+                "bpay": 4360
+            }, 
+            "bo": 3, 
+            "o": 0.42, 
+            "eo": 1.42, 
+            "rsl": 8888, 
+            "wid": 0, 
+            "tl": "IP", 
+            "serr": "BS_SelectionClosed", 
+            "cv": 0, 
+            "wo": 0, 
+            "ishp": true, 
+            "isnu": false, 
+            "isds": true, 
+            "ors": "", 
+            "edt": "2016-08-10T21:30:00", 
+            "idan": false, 
+            "peid": 1619453
+        }
+    ], 
+    "c": [ ], 
+    "cinfo": [
+        {
+            "cbn": "单注", 
+            "wid": 1, 
+            "cbs": {
+                "bmin": 0, 
+                "bmax": 0, 
+                "bpay": 0
+            }, 
+            "cba": 0
+        }
+    ], 
+    "bo": 0, 
+    "berr": 6666, 
+    "cno": 0, 
+    "islog": true, 
+    "issa": false, 
+    "isca": false, 
+    "cc": "RMB", 
+    "info": "BS_ClosedMarket", 
+    "ot": 2, 
+    "l": "CHS", 
+    "k": false, 
+    "ko": false, 
+    "abo": false, 
+    "sbc": true, 
+    "bal": 291.7779
+}

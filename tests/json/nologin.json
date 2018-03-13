@@ -1,0 +1,65 @@
+{
+    "s": [{
+        "ip": false,
+        "ap": true,
+        "bn": "选择第一位号码",
+        "sn": "00",
+        "as": 0,
+        "hs": 0,
+        "eid": 1617092,
+        "en": "中国福彩3D周四开奖(www.starlott.com)",
+        "hd": "null",
+        "cpn": "中国福彩3D",
+        "sid": 1119534448,
+        "st": 0.0,
+        "bs": {
+            "bmin": 1.0,
+            "bmax": 999999999.0,
+            "dm": "999,999,999",
+            "bpay": 999999999999.0
+        },
+        "bo": 1,
+        "o": 9.00,
+        "eo": 9.0,
+        "rsl": 0,
+        "wid": 1,
+        "tl": "OR",
+        "cv": 0.0,
+        "wo": 0,
+        "ishp": false,
+        "isnu": false,
+        "isds": false,
+        "ors": "",
+        "edt": "2016-08-04T20:00:00",
+        "idan": false,
+        "peid": 1617092
+    }
+    ],
+    "c": [],
+    "cinfo": [{
+        "cbn": "单注",
+        "wid": 1,
+        "cbs": {
+            "bmin": 0.0,
+            "bmax": 0.0,
+            "bpay": 0.0
+        },
+        "cba": 0.0
+    }
+    ],
+    "bo": 0,
+    "berr": 0,
+    "cno": 0,
+    "islog": false,
+    "issa": false,
+    "isca": false,
+    "cc": "RMB",
+    "ot": 2,
+    "l": "CHS",
+    "k": false,
+    "ko": false,
+    "abo": false,
+    "sbc": false,
+    "bal": 0.0
+}
+

@@ -1,0 +1,157 @@
+<div id="footer">
+        <div class="footer-ql">
+            <div class="container footer-ql-bg">
+                <div class="row">
+                    <div class="hide col-lg-4 col-md-5 column">
+                        <h4 class="visible-sm-block visible-md-block visible-lg-block" translate="titCommonQuickLinks">QUICK LINKS</h4>
+                        <p>
+                            <a href="#">Promotions: 100% First Deposit Bonus, 25 EURO Frebet, Refer a friend</a> <br/>
+                            <a href="#">In Sports: Euro Cup 2016, Football In-Play, NBA Finals 2016, Silva VS Diaz</a> <br/>
+                            <a href="#">In Casino: The Dark Knight, Max Damage</a> <br/>
+                            <a href="#">In Payments: New Mitsubishi Local Payment Method</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-8 column">
+                        <h4 class="visible-sm-block visible-md-block visible-lg-block" translate="titCommonUsefulLinks">OTHER USEFUL LINKS</h4>
+                        <a target="_top" ng-href="/{{global.lan}}/corporate-affairs/about-us" class="col-lg-4 column fl-about-us" translate="navHelpAboutUs">About Us</a>
+                        <a target="_top" ng-href="/{{global.lan}}/corporate-affairs/terms-and-conditions" class="col-lg-4 column fl-tac" translate="navTermsAndConditions">Terms &amp; Conditions</a>
+                        <a target="_top" ng-href="/{{global.lan}}/sitemap" class="col-lg-4 column fl-sitemap" translate="navSiteMapRoot">Site Map</a>
+                        <a target="_top" ng-href="/{{global.lan}}/corporate-affairs/affiliates" class="col-lg-4 column fl-affiliates" translate="navAffiliatesRoot">Affiliates</a>
+                        <a target="_top" ng-href="/{{global.lan}}/corporate-affairs/privacy-policy" class="col-lg-4 column fl-privacy-policy" translate="navCorAffairsPrivacyPolicy">Privacy Policy</a>
+                        <a target="_top" ng-if="client.sessionD.mberType == 0 && client.pd.r !='UK'" ng-href="/{{global.lan}}/select-your-region" class="col-lg-4 column fl-region"> {{ currRegion[0].display }}  <span class="flag reg-{{::client.pd.r | lowercase}}"></span></a>
+                        <span ng-if="client.sessionD.mberType == 1 || client.pd.r =='UK'" class="col-lg-4 column fl-region"> {{ currRegion[0].display }}  <span class="flag reg-{{::client.pd.r | lowercase}}"></span></span>
+                        <a target="_top" ng-href="/{{global.lan}}/corporate-affairs/responsible-gaming" class="col-lg-4 column fl-responsible-gaming" translate="navCorAffairsResponsibleGaming">Responsible Gaming</a>
+                        <a target="_top" ng-href="{{global.domains.mobile}}/{{global.lan}}/" class="col-lg-4 visible-md-inline visible-lg-inline column fl-switch-2-mbl" translate="msgCommonSwitchToMobile">Switch to Mobile Site</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="visible-sm-block visible-md-block visible-lg-block" translate="titCommonNeedHelp">NEED HELP NOW?</h4>
+                        <p>
+                            <a ng-href="/{{::global.lan}}/faqs" target="_top" translate="navFAQsRoot">Faqs</a> <br />
+                            <a ng-href="/{{::global.lan}}/live-chat?region={{client.pd.r}}" window-open="LiveChat" translate="navHelpLiveChatRoot">Live Chat</a> <br />
+                            <a ng-href="/{{global.lan}}/corporate-affairs/contact-us" target="_top" translate="navHelpContactUs">Contact Us</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer-reg" ng-if="client.sessionD.mberType <=1">
+        <div class="container text-center footer-reg-bg">
+            <div ng-if="cooperativeSet.sponsor.length !=0">
+                <h4 class="sponsor-title" translate="msgComProudforSponorsV2"> 188BET is proud to work with liverpool FC. </h4>
+                <ul class="footer-sponsors">
+                    <li class="sponsor-item" ng-repeat="partner in cooperativeSet.sponsor">
+                        <a target="_blank" ng-href="{{ partner.partnerUrl }}" class="footer-logos sponsors {{ partner.name }}"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-left">
+                    <h6 translate="titPaymentMethod">PAYMENT METHODS</h6>
+                    <p translate="msgCommonPaymentDesc">With Payments, you can write something here about the payment methods which will also help much in our SEO. It is best to mention the names of the methods here because it will be very relevant to our busines.</p>
+                    <ul class="row payment-logo-list">
+                        <li class="pull-left" ng-repeat="partner in cooperativeSet.paymentMethod">
+                            <a target="_top" ng-href="/{{global.lan}}/faqs/deposit" class="footer-logo-hires payment {{partner.name}}"></a>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-xs-6 sec-logos">
+                            <h6 translate="titHelpSecurityAndTrust">SECURITY AND TRUST</h6>
+                            <ul class="row trust-logo-list">
+                                <li class="pull-left" ng-repeat="partner in cooperativeSet.securityTrust">
+                                    <a target="_top" ng-href="{{partner.partnerUrl}}" class="footer-logo-raster trust {{partner.name}}"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-6 resgaming-logos">
+                            <h6 translate="titHelpResponsibleGaming">RESPONSIBLE GAMING</h6>
+                            <ul class="row trust-logo-list">
+                                <li class="pull-left" ng-repeat="partner in cooperativeSet.responsibleGaming" ng-switch="partner.name">
+                                    <a ng-switch-when="resgame" target="_top" ng-href="/{{global.lan}}/{{partner.partnerUrl}}" class="footer-logo-raster trust {{partner.name}}"></a>
+                                    <a ng-switch-default target="_top" ng-href="{{partner.partnerUrl}}" target="_top" class="footer-logo-raster trust {{partner.name}}"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 text-left">
+                    <h6 translate="titHelpContactpoint">CONTACT POINTS</h6>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="clearfix">
+                                <div class="box-logo-contact asia pull-left"><span class="contact-rgn" translate="txtCommonAsian"></span></div>
+                                <p class="contact-point">
+                                    <span translate="txtCommonPhone">Phone:</span> +<span translate="txtComAsiaPhoneNo"></span> <br>
+                                    <span translate="txtCommonFax">Fax:</span> +<span translate="txtComAsiaFaxNo"></span>
+                                </p>
+                            </div>
+                            <div class="clearfix">
+                                <div class="box-logo-contact uk pull-left"><span class="contact-rgn" translate="txtCommonEuro"></span></div>
+                                <p class="contact-point">
+                                    <span translate="txtCommonPhone">Phone:</span> +<span translate="txtComEuroPhoneNo"></span><br>
+                                    <span translate="txtCommonFax">Fax:</span> +<span translate="txtComEuroFaxNo"></span>
+                                </p>
+                            </div>
+                            <div class="clearfix" ng-if="client.pd.r==='Brazil'">
+                                <div class="box-logo-contact pull-left"><span class="contact-rgn" translate="txtComBrazil"></span></div>
+                                <p class="contact-point phone-only">
+                                    <span translate="txtCommonPhone">Phone:</span> <span translate="txtComBrazilPhoneNo"></span><br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="clearfix">
+                                <div class="box-logo mail pull-left clearfix"></div>
+                                <a class="contact-point mail" ng-href="mailto:{{conditEmails[0].account}}">{{conditEmails[0].account}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-sm-12">
+                        <h6 translate="titHelpSocialMedia">SOCIAL MEDIA</h6>
+                        <div class="row">
+                            <ul class="social-networks">
+                                <li class="pull-left" ng-repeat="partner in cooperativeSet.socialMedia" ng-switch="partner.isPopup">
+                                    <a ng-switch-when="true" target="_blank" href="#" onclick=" return false; " class="box-logo {{partner.name}}" qrcode="{{partner.name}}"></a>
+                                    <a ng-switch-default target="_blank" href="{{partner.partnerUrl}}" class="box-logo {{partner.name}}"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-sm-12 hide">
+                        <h6 translate="titHelpNewsLetter">NEWSLETTER SUBSCRIPTION</h6>
+                        <div class="input-group">
+                            <input type="email" placeholder="E-mail Address + Enter" id="newsletterSubscribe" class="form-control">
+                            <a id="subscribeNow" class="input-group-addon" href="#"><span class="betfont icon-enter subscribe-button" alt=""></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-reg" ng-if="client.pd.r==='Credit'">
+        <div class="container footer-reg-bg row">
+              <div class="col-lg-5 credit-ver">
+                  <h6 translate="titHelpSecurityAndTrust">SECURITY, TRUST AND RESPONSIBLE GAMING</h6>
+                  <p translate="msgCommonSecureDesc">We have always been proud of our edge in having a very secure system and a licensed business so again, this is one area you can add in content for relevancy,</p>
+                  <ul class="row trust-logo-list">
+                      <li class="pull-left" ng-repeat="partner in cooperativeSet.responsibleGaming" ng-switch="partner.name">
+                          <a ng-switch-when="resgame" target="_blank" ng-href="/{{global.lan}}/{{partner.partnerUrl}}" target="_top" class="footer-logo-raster trust {{partner.name}}"></a>
+                          <a ng-switch-default target="_blank" ng-href="{{partner.partnerUrl}}" target="_top" class="footer-logo-raster trust {{partner.name}}"></a>
+                      </li>
+                  </ul>
+              </div>
+        </div>
+    </div>
+    <div class="footer-address">
+        <address>
+            <div class="container text-center footer-address-bg" ng-click="showServerCode = !showServerCode">
+                <div class="footer-address-text" ng-repeat="license in cooperativeSet.issueLicenses">
+                    <a target="_top" ng-href="/{{global.lan}}/">188BET</a>
+                    <span translate="reg{{license.name}}AddressDesc"></span><br/>
+                    <a target="_blank" ng-href="/{{global.lan}}/corporate-affairs/about-us" translate="reg{{license.name}}License"></a>
+                    <span class="copyright" translate="regComCopyright">Copyright ©</span>
+                    <span ng-show="showServerCode">{{ global.serverCode }}</span>
+                </div>
+            </div>
+        </address>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+<config>
+	<params bundle="betstream">
+		
+		<!-- used by clock on header (first line) -->
+		<param name="period.football.Scheduled.header">开球</param>
+		<param name="period.football.Scheduled.headerShort">开球</param>
+		<param name="period.football.CountingDown.header">开球</param>
+		<param name="period.football.CountingDown.headerShort">开球</param>
+		<param name="period.football.Overdue.header">开球</param>
+		<param name="period.football.Overdue.headerShort">开球</param>
+		<param name="period.football.ExtraTimeFirstHalf.headerShort">加时赛</param>
+		<param name="period.football.ExtraTimeSecondHalf.headerShort">加时赛</param>
+		
+		<!-- used by clock on header (second line) -->
+		<param name="period.football.Overdue.defaultShort">即将</param>
+		<param name="period.football.HalfTime.defaultShort">半场</param>
+		<param name="period.football.PreExtraTime.defaultShort">加时赛前</param>
+		<param name="period.football.ExtraTimeHalfTime.defaultShort">加时赛半场</param>
+		<param name="period.football.PreShootout.defaultShort">点球大战赛前</param>
+		<param name="period.football.Shootout.defaultShort">点球大战</param>
+		<param name="period.football.Finished.defaultShort">全场</param>
+		<param name="period.football.Abandoned.defaultShort">中止</param>
+		
+		<!-- used by the timeline -->
+		<param name="period.football.HalfTime.timeline">半场</param>
+		<param name="period.football.PreExtraTime.timeline">全场</param>
+		<param name="period.football.ExtraTimeHalfTime.timeline">半场</param>
+		
+		<!-- used by end of period pitch renderers -->
+		<param name="period.football.Scheduled.pitch">开球</param>
+		<param name="period.football.Overdue.pitch">即将开赛</param>
+		<param name="period.football.FirstHalf.pitch">开球</param>
+		<param name="period.football.HalfTime.pitch">半场</param>
+		<param name="period.football.SecondHalf.pitch">下半场</param>
+		<param name="period.football.PreExtraTime.pitch">加时赛前</param>
+		<param name="period.football.ExtraTime.pitch">加时赛</param>
+		<param name="period.football.ExtraTime.pitchShort">加时赛</param>
+		<param name="period.football.ExtraTimeFirstHalf.pitch">上半场</param>
+		<param name="period.football.ExtraTimeHalfTime.pitch">半场</param>
+		<param name="period.football.ExtraTimeSecondHalf.pitch">下半场</param>
+		<param name="period.football.PreShootout.pitch">点球大战赛前</param>
+		<param name="period.football.Shootout.pitch">点球大战</param>
+		<param name="period.football.Finished.pitch">全场</param>
+		<param name="period.football.Abandoned.pitch">中止</param>
+		
+		<!-- used by commentary and update item renderers -->
+		<param name="period.football.HalfTime.updates">半场</param>
+		<param name="period.football.PreExtraTime.updates">加时赛前</param>
+		<param name="period.football.ExtraTimeFirstHalf.updates">加时赛</param>
+		<param name="period.football.ExtraTimeHalfTime.updates">加时赛半场</param>
+		<param name="period.football.ExtraTimeSecondHalf.updates">加时赛</param>
+		<param name="period.football.PreShootout.updates">点球大战赛前</param>
+		<param name="period.football.Shootout.updates">点球大战</param>
+		<param name="period.football.Finished.updates">全场</param>
+		
+		<!-- used on the pitch when abandoned or cancelled after the game has started -->
+		<param name="event.noCoverage.cancelled">直播当前无法使用</param>
+		<param name="event.noCoverage.technicalProblems">当前赛事现场直播不可用，请选择其他赛事查看。</param>
+		<param name="event.noCoverage.postponed">直播当前无法使用</param>
+		
+		<!-- used on the header -->
+		<param name="contestName.versus">v</param>
+		
+	</params>
+	
+</config>

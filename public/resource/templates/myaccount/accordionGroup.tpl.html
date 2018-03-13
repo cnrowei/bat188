@@ -1,0 +1,8 @@
+<li>
+<div class="panel-heading" role="tab" ng-keypress="toggleOpen($event)">
+	<h4 class="panel-title">
+	<a ng-click="toggleOpen()" class="accordion-toggle" uib-accordion-transclude="heading" ng-class="{'expanded': isOpen}"> <span translate="{{heading}}"></span></a>
+	</h4>
+	<ul class="panel-collapse panel-group list-unstyled collapsed in" ng-transclude uib-collapse="!isOpen"></ul>
+</div>
+</li>

@@ -1,0 +1,15 @@
+<form class="form-inline" role="search" ng-submit="searchFn({data:dateRange})" name="dateRangeForm" novalidate>
+    <div class="form-group">
+        <label class="control-label light-weight font-13" for="inputFrom" translate="txtComFrom"> From </label>
+    </div>
+    <div class="form-group w-icon-dd">
+        <input date-picker  max-date-range="maxDateRange" init-date="{{dateRange.dateFrom}}" ng-change="validate()" ng-pattern="datePattern" type="text" name="dateFrom" class="form-control" id="inputFrom" ng-model="dateRange.dateFrom" required>
+    </div>
+    <div class="form-group">
+        <label class="control-label light-weight font-13" for="inputTo" translate="txtComTo"> To </label>
+    </div>
+    <div class="form-group w-icon-dd">
+        <input date-picker  max-date-range="maxDateRange"  init-date="{{dateRange.dateTo}}" ng-change="validate()" ng-pattern="datePattern" type="text" name="dateTo" class="form-control" id="inputTo" ng-model="dateRange.dateTo" required>
+    </div>
+    <button type="submit" class="btn bet-btn btn-darkergrey-sm" ng-disabled="dateRangeForm.$invalid" translate="txtComShow">SHOW</button>
+</form>

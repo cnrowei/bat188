@@ -1,0 +1,5 @@
+<ul class="nav nav-tabs grey-sharp-tabs pull-left">
+	<li role="presentation" ng-class="{active:(dateRange|isEqual:getDateRange(0))}"><a ng-click="searchFn({data:getDateRange(0)})" translate="txtComToday">Today</a></li>
+	<li role="presentation" ng-class="{active:(dateRange|isEqual:getDateRange(-1,false))}"><a ng-click="searchFn({data:getDateRange(-1,false)})" translate="txtComYesterday">Yesterday</a></li>
+	<li role="presentation" ng-class="{active:(dateRange|isEqual:getDateRange(-29))}"><a ng-click="searchFn({data:getDateRange(-29)})" translate="txtComLast30Days">Last 30 Days</a></li>
+</ul>
